@@ -8,7 +8,8 @@ from config import (
     BATCH_SIZE, MAX_LENGTH, LEARNING_RATE,
     NUM_EPOCHS, WEIGHT_DECAY, GRAD_CLIP,
     SAVE_EVERY_N_STEPS, CHECKPOINT_PATH, VAL_RATIO,
-    FINETUNE_MODE, TRAIN_LAST_N_BLOCKS, FREEZE_EMBEDDINGS
+    FINETUNE_MODE, TRAIN_LAST_N_BLOCKS, FREEZE_EMBEDDINGS,
+    NUM_SAMPLES
 )
 
 
@@ -98,7 +99,10 @@ def train():
     print(f"Device: {device}")
 
     train_loader, val_loader, _ = get_dataloaders(
-        batch_size=BATCH_SIZE, max_length=MAX_LENGTH, val_ratio=VAL_RATIO
+        batch_size=BATCH_SIZE,
+        max_length=MAX_LENGTH,
+        val_ratio=VAL_RATIO,
+        num_samples=NUM_SAMPLES
     )
 
     cfg   = GPTConfig()

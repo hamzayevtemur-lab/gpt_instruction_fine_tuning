@@ -7,6 +7,7 @@ GRAD_CLIP           = 1.0
 SAVE_EVERY_N_STEPS  = 500
 CHECKPOINT_PATH     = "checkpoints/instruct_gpt2.pt"
 VAL_RATIO           = 0.05
+NUM_SAMPLES         = 10000   # use subset for fast training
 
 # Fine-tuning strategy:
 #   'full'    -> train all parameters
