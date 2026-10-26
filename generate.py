@@ -20,6 +20,7 @@ def generate(model, tokenizer, instruction, inp="",
 
     eos_id = tokenizer.eot_token  # 50256
 
+    prompt_len = tokens.size(1)
     for _ in range(max_new_tokens):
         context = tokens[:, -MAX_LENGTH:]
 
@@ -37,11 +38,11 @@ def generate(model, tokenizer, instruction, inp="",
         if next_tok.item() == eos_id:
             break
 
-    out = tokens[0, -max_new_tokens:].tolist()
+    out = tokens[0, prompt_len:].tolist()
     if eos_id in out:
         out = out[:out.index(eos_id)]
 
-    return tokenizer.decode(out)
+    return tokenizer.decode(out).strip()
 
 
 

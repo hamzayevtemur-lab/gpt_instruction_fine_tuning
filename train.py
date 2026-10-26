@@ -72,13 +72,16 @@ def calc_val_loss(model, val_loader, device, max_batches=20):
             input_ids, labels = input_ids.to(device), labels.to(device)
             logits = model(input_ids)
 
-            loss   = F.cross_entropy(
-                logits.view(-1, logits.size(-1)),
-                labels.view(-1),
+            shift_logits = logits[:, :-1, :].contiguous()
+            shift_labels = labels[:, 1:].contiguous()
+
+            loss = F.cross_entropy(
+                shift_logits.view(-1, shift_logits.size(-1)),
+                shift_labels.view(-1),
                 ignore_index=-100
             )
-            total+=loss.item()
-            count+=1
+            total += loss.item()
+            count += 1
 
     model.train()
 
@@ -126,9 +129,12 @@ def train():
 
             logits = model(input_ids)
 
-            loss   = F.cross_entropy(
-                logits.view(-1, logits.size(-1)),
-                labels.view(-1),
+            shift_logits = logits[:, :-1, :].contiguous()
+            shift_labels = labels[:, 1:].contiguous()
+
+            loss = F.cross_entropy(
+                shift_logits.view(-1, shift_logits.size(-1)),
+                shift_labels.view(-1),
                 ignore_index=-100
             )
 
