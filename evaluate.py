@@ -53,10 +53,14 @@ def generate_response(model, enc, prompt: str, max_new_tokens: int=128, device: 
 
 
 def run_evaluation(
-    data_path: str = "data/alpaca_data.json",
+    data_path: str = "data/test.json",
     num_samples: int = 100,
     output_path: str = "eval_results.json",
+    checkpoint_path: str = None,
+    use_pretrained: bool = False,
 ):
+    import argparse
+    from load_weights import load_pretrained_weights
 
     device = (
         "cuda"
@@ -65,31 +69,48 @@ def run_evaluation(
     )
     print(f"Using device: {device}")
 
-    # 1. Load data
+    # 1. Load exact test split
+    if not os.path.exists(data_path):
+        from create_splits import create_reproducible_splits
+        print(f"{data_path} not found. Generating reproducible splits ...")
+        create_reproducible_splits()
+
     with open(data_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Use the last N samples as test set (held out from training)
-    test_data = data[-num_samples:]
-    print(f"Loaded {len(test_data)} test samples.")
+    test_data = data[:num_samples]
+    print(f"Loaded {len(test_data)} test samples from {data_path}.")
 
-    # 2. Load Model
+    # 2. Load Model (either un-finetuned pretrained baseline or trained checkpoint)
     enc = tiktoken.get_encoding("gpt2")
     model = GPT2Model(GPTConfig())
 
-    if not os.path.exists(CHECKPOINT_PATH):
-        raise FileNotFoundError(f"Checkpoint not found at: {CHECKPOINT_PATH}")
-    print(f"Loading checkpoint from {CHECKPOINT_PATH} ...")
+    if use_pretrained:
+        print("★ Evaluating UN-FINETUNED BASELINE (OpenAI GPT-2)...")
+        model = load_pretrained_weights(model)
+        if output_path == "eval_results.json":
+            output_path = "eval_baseline_results.json"
+    else:
+        ckpt_path = checkpoint_path or "checkpoints/instruct_gpt2_best.pt"
+        if not os.path.exists(ckpt_path):
+            ckpt_path = "checkpoints/instruct_gpt2.pt"
 
-    checkpoint = torch.load(CHECKPOINT_PATH, map_location=device)
-    model.load_state_dict(checkpoint)
+        if not os.path.exists(ckpt_path):
+            raise FileNotFoundError(
+                f"Checkpoint not found at '{ckpt_path}'. Run training first, or run with '--use-pretrained' to evaluate base GPT-2."
+            )
+
+        print(f"★ Evaluating FINE-TUNED MODEL from: {ckpt_path}")
+        checkpoint = torch.load(ckpt_path, map_location=device)
+        state_dict = checkpoint["model_state_dict"] if "model_state_dict" in checkpoint else checkpoint
+        model.load_state_dict(state_dict)
+
     model.to(device)
     model.eval()
 
-    # 3. Generate responses
+    # 3. Generate responses using greedy argmax
     results = []
-
-    print(f"Generating responses for {num_samples} samples...")
+    print(f"Generating responses for {len(test_data)} samples...")
     for i, entry in enumerate(test_data, 1):
         instruction = entry.get("instruction", "")
         input_text = entry.get("input", "")
@@ -107,13 +128,27 @@ def run_evaluation(
                 "model_response": model_response,
             }
         )
-        if i % 10 == 0 or i == num_samples:
-            print(f"  Processed [{i}/{num_samples}]")
+        if i % 10 == 0 or i == len(test_data):
+            print(f"  Processed [{i}/{len(test_data)}]")
 
     # 4. Save results to JSON
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     print(f"\n✓ Evaluation generation complete! Saved to {output_path}")
-    
+
+
 if __name__ == "__main__":
-    run_evaluation()
+    import argparse
+    parser = argparse.ArgumentParser(description="Evaluate InstructGPT-2 on held-out test split")
+    parser.add_argument("--checkpoint", type=str, default=None, help="Path to checkpoint (defaults to instruct_gpt2_best.pt)")
+    parser.add_argument("--use-pretrained", action="store_true", help="Evaluate base un-finetuned GPT-2 as a comparison baseline")
+    parser.add_argument("--num-samples", type=int, default=100, help="Number of test samples to evaluate")
+    parser.add_argument("--output", type=str, default="eval_results.json", help="Path to output JSON")
+    args = parser.parse_args()
+
+    run_evaluation(
+        num_samples=args.num_samples,
+        output_path=args.output,
+        checkpoint_path=args.checkpoint,
+        use_pretrained=args.use_pretrained
+    )

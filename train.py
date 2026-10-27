@@ -62,12 +62,12 @@ def setup_for_finetuning(model, mode="full", last_n_blocks=2, freeze_embeddings=
 
 
 
-def calc_val_loss(model, val_loader, device, max_batches=20):
+def calc_val_loss(model, val_loader, device, max_batches=50):
     model.eval()
-    total, count=0.0, 0
+    total_loss, total_tokens = 0.0, 0
     with torch.no_grad():
         for i, (input_ids, labels) in enumerate(val_loader):
-            if i >= max_batches:
+            if max_batches and i >= max_batches:
                 break
 
             input_ids, labels = input_ids.to(device), labels.to(device)
@@ -76,21 +76,34 @@ def calc_val_loss(model, val_loader, device, max_batches=20):
             shift_logits = logits[:, :-1, :].contiguous()
             shift_labels = labels[:, 1:].contiguous()
 
+            # Token-weighted loss calculation
+            valid_mask = (shift_labels != -100)
+            num_valid = valid_mask.sum().item()
+            if num_valid == 0:
+                continue
+
             loss = F.cross_entropy(
                 shift_logits.view(-1, shift_logits.size(-1)),
                 shift_labels.view(-1),
-                ignore_index=-100
+                ignore_index=-100,
+                reduction="sum"
             )
-            total += loss.item()
-            count += 1
+
+            total_loss += loss.item()
+            total_tokens += num_valid
 
     model.train()
-
-    return total/count if count>0 else 0.0
-
+    return (total_loss / total_tokens) if total_tokens > 0 else 0.0
 
 
 def train():
+    import argparse
+    import time
+
+    parser = argparse.ArgumentParser(description="Train InstructGPT-2")
+    parser.add_argument("--resume", action="store_true", help="Resume training from latest checkpoint")
+    args = parser.parse_args()
+
     device = (
         torch.device("cuda") if torch.cuda.is_available() else
         torch.device("mps")  if torch.backends.mps.is_available() else
@@ -101,16 +114,11 @@ def train():
     train_loader, val_loader, _ = get_dataloaders(
         batch_size=BATCH_SIZE,
         max_length=MAX_LENGTH,
-        val_ratio=VAL_RATIO,
-        num_samples=NUM_SAMPLES
     )
 
     cfg   = GPTConfig()
     model = GPT2Model(cfg)
-    model = load_pretrained_weights(model)
-    model.to(device)
 
-    # Partial or full fine-tuning
     trainable_params = setup_for_finetuning(model, mode=FINETUNE_MODE,
                                              last_n_blocks=TRAIN_LAST_N_BLOCKS,
                                              freeze_embeddings=FREEZE_EMBEDDINGS)
@@ -119,11 +127,32 @@ def train():
         trainable_params, lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY
     )
 
-    os.makedirs(os.path.dirname(CHECKPOINT_PATH), exist_ok=True)
-    global_step = 0
+    checkpoint_dir = os.path.dirname(CHECKPOINT_PATH)
+    os.makedirs(checkpoint_dir, exist_ok=True)
+    latest_path = os.path.join(checkpoint_dir, "instruct_gpt2_latest.pt")
+    best_path   = os.path.join(checkpoint_dir, "instruct_gpt2_best.pt")
 
+    start_epoch = 1
+    global_step = 0
+    best_val_loss = float("inf")
+
+    if args.resume and os.path.exists(latest_path):
+        print(f"Resuming training from: {latest_path}")
+        checkpoint = torch.load(latest_path, map_location=device)
+        model.load_state_dict(checkpoint["model_state_dict"])
+        optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+        start_epoch = checkpoint["epoch"]
+        global_step = checkpoint["step"]
+        best_val_loss = checkpoint.get("best_val_loss", float("inf"))
+        print(f"Resumed at Epoch {start_epoch}, Step {global_step} (Best Val Loss: {best_val_loss:.4f})")
+    else:
+        model = load_pretrained_weights(model)
+
+    model.to(device)
+
+    start_time = time.time()
     print("\n── Training started ──")
-    for epoch in range(1, NUM_EPOCHS + 1):
+    for epoch in range(start_epoch, NUM_EPOCHS + 1):
         model.train()
 
         for step, (input_ids, labels) in enumerate(train_loader, 1):
@@ -142,6 +171,10 @@ def train():
                 ignore_index=-100
             )
 
+            if torch.isnan(loss):
+                print(f"Warning: Non-finite loss encountered at Step {step} — skipping step.")
+                continue
+
             loss.backward()
 
             torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
@@ -153,14 +186,44 @@ def train():
                 print(f"Epoch {epoch}/{NUM_EPOCHS} | Step {step:05d} | Loss: {loss.item():.4f}")
 
             if global_step % SAVE_EVERY_N_STEPS == 0:
-                torch.save(model.state_dict(), CHECKPOINT_PATH)
-                print(f"  ✓ Checkpoint saved at step {global_step}")
+                save_dict = {
+                    "epoch": epoch,
+                    "step": global_step,
+                    "model_state_dict": model.state_dict(),
+                    "optimizer_state_dict": optimizer.state_dict(),
+                    "best_val_loss": best_val_loss,
+                }
+                torch.save(save_dict, latest_path)
+                print(f"  ✓ Latest recovery checkpoint saved at step {global_step}")
 
         val_loss = calc_val_loss(model, val_loader, device)
-        print(f"\n── Epoch {epoch} done | Val Loss: {val_loss:.4f}\n")
+        print(f"\n── Epoch {epoch} done | Val Loss: {val_loss:.4f}")
 
-    torch.save(model.state_dict(), CHECKPOINT_PATH)
-    print(f"Done! Saved → {CHECKPOINT_PATH}")
+        # Check if this is the best model so far
+        is_best = val_loss < best_val_loss
+        if is_best:
+            best_val_loss = val_loss
+            torch.save({
+                "epoch": epoch,
+                "step": global_step,
+                "model_state_dict": model.state_dict(),
+                "val_loss": best_val_loss,
+            }, best_path)
+            print(f"  ★ New best model saved! Val Loss: {best_val_loss:.4f} -> {best_path}")
+
+        # Also update latest recovery checkpoint
+        torch.save({
+            "epoch": epoch + 1,
+            "step": global_step,
+            "model_state_dict": model.state_dict(),
+            "optimizer_state_dict": optimizer.state_dict(),
+            "best_val_loss": best_val_loss,
+        }, latest_path)
+
+    total_time = time.time() - start_time
+    print(f"\nTraining completed in {total_time / 60:.2f} minutes.")
+    print(f"Best Checkpoint: {best_path} (Val Loss: {best_val_loss:.4f})")
+    print(f"Latest Checkpoint: {latest_path}")
 
 
 if __name__ == "__main__":

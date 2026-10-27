@@ -54,14 +54,29 @@ def main():
         torch.device("cpu")
     )
 
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate text from InstructGPT-2")
+    parser.add_argument("--checkpoint", type=str, default=CHECKPOINT_PATH, help="Path to fine-tuned checkpoint")
+    parser.add_argument("--use-pretrained", action="store_true", help="Explicitly use base GPT-2 pretrained weights instead of a checkpoint")
+    args = parser.parse_args()
+
     cfg   = GPTConfig()
     model = GPT2Model(cfg)
 
-    if os.path.exists(CHECKPOINT_PATH):
-        model.load_state_dict(torch.load(CHECKPOINT_PATH, map_location=device))
-        print(f"Loaded: {CHECKPOINT_PATH}\n")
+    if args.use_pretrained:
+        from load_weights import load_pretrained_weights
+        print("Using base pretrained OpenAI GPT-2 weights (un-finetuned baseline)...\n")
+        model = load_pretrained_weights(model)
+    elif os.path.exists(args.checkpoint):
+        checkpoint = torch.load(args.checkpoint, map_location=device)
+        state_dict = checkpoint["model_state_dict"] if "model_state_dict" in checkpoint else checkpoint
+        model.load_state_dict(state_dict)
+        print(f"✓ Loaded fine-tuned checkpoint: {args.checkpoint}\n")
     else:
-        print("No checkpoint found — using random weights.\n")
+        raise FileNotFoundError(
+            f"Checkpoint not found at '{args.checkpoint}'.\n"
+            f"Please train the model first with 'python3 train.py', or run with '--use-pretrained' to test base GPT-2."
+        )
 
     model.to(device)
     tokenizer = tiktoken.get_encoding("gpt2")

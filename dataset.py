@@ -26,6 +26,10 @@ class AlpacaDataset(Dataset):
             # Truncate if exceeding max_length
             full_ids = full_ids[:max_length]
 
+            # If truncation eliminated the entire response, skip this sample!
+            if len(full_ids) <= header_len:
+                continue
+
             # Build labels: -100 for instruction/prompt, real ids for response
             labels = [-100] * len(full_ids)
             for i in range(header_len, len(full_ids)):
@@ -61,21 +65,31 @@ def custom_collate_fn(batch, pad_token_id=50256, ignore_index=-100):
     return torch.stack(batch_input_ids), torch.stack(batch_labels)
 
 
-def load_alpaca(path="data/alpaca_data.json"):
+def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def get_dataloaders(batch_size=4, max_length=512, val_ratio=0.05, num_samples=None):
+def get_dataloaders(
+    train_path="data/train.json",
+    val_path="data/val.json",
+    batch_size=4,
+    max_length=512,
+):
+    import os
+    from create_splits import create_reproducible_splits
+
+    # Auto-generate splits if they do not exist
+    if not os.path.exists(train_path) or not os.path.exists(val_path):
+        print("Split files not found. Creating reproducible splits from alpaca_data.json ...")
+        create_reproducible_splits()
+
     tokenizer = tiktoken.get_encoding("gpt2")
-    data = load_alpaca()
+    train_data = load_json(train_path)
+    val_data = load_json(val_path)
 
-    if num_samples is not None and num_samples > 0:
-        data = data[:num_samples]
-
-    split = int(len(data) * (1 - val_ratio))
-    train_ds = AlpacaDataset(data[:split], tokenizer, max_length)
-    val_ds   = AlpacaDataset(data[split:], tokenizer, max_length)
+    train_ds = AlpacaDataset(train_data, tokenizer, max_length)
+    val_ds   = AlpacaDataset(val_data, tokenizer, max_length)
 
     train_loader = DataLoader(
         train_ds,
@@ -91,7 +105,7 @@ def get_dataloaders(batch_size=4, max_length=512, val_ratio=0.05, num_samples=No
         collate_fn=lambda b: custom_collate_fn(b, pad_token_id=tokenizer.eot_token)
     )
 
-    print(f"Train: {len(train_ds)} | Val: {len(val_ds)}")
+    print(f"Loaded explicit splits -> Train: {len(train_ds)} | Val: {len(val_ds)}")
     return train_loader, val_loader, tokenizer
 
 
