@@ -12,7 +12,7 @@ if not api_key:
 
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-3.8-flash")
 
 
 JUDGE_PROMPT_TEMPLATE = """You are an expert evaluator assessing the performance of a fine-tuned language model.
@@ -122,7 +122,13 @@ def run_judge(
 
 
 if __name__ == "__main__":
-    run_judge()
+    import argparse
+    parser = argparse.ArgumentParser(description="Evaluate model responses with Gemini LLM-as-a-judge")
+    parser.add_argument("--input", type=str, default="checkpoints/eval_results.json", help="Path to input evaluation json")
+    parser.add_argument("--output", type=str, default="results/judged_results.json", help="Path to output judged json")
+    args = parser.parse_args()
+
+    run_judge(input_file=args.input, output_file=args.output)
 
 
 
