@@ -101,11 +101,11 @@ def run_judge(
                 }
             )
 
-            print(f"[{item_id:03d}/{len(data)}] Score: {score:3d}/100")
+            print(f"[{item_id:03d}/{len(data)}] Score: {score:3d}/100", flush=True)
             time.sleep(0.5)  # Stay within free tier rate limit
 
         except Exception as e:
-            print(f"[{item_id:03d}/{len(data)}] Error: {e}")
+            print(f"[{item_id:03d}/{len(data)}] Error: {e}", flush=True)
             time.sleep(2)
 
 
