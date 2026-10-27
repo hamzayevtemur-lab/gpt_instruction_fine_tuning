@@ -5,14 +5,20 @@ import time
 import google.generativeai as genai
 
 
-# Configure Gemini
-api_key = os.getenv("GEMINI_API_KEY")
-if not api_key:
-    api_key = input("Enter your Gemini API key: ").strip()
+import argparse
 
+parser = argparse.ArgumentParser(description="Evaluate model responses with Gemini LLM-as-a-judge")
+parser.add_argument("--api-key", type=str, default=os.getenv("GEMINI_API_KEY", ""), help="Gemini API Key")
+parser.add_argument("--input", type=str, default="checkpoints/eval_results.json", help="Path to input evaluation json")
+parser.add_argument("--output", type=str, default="results/judged_results.json", help="Path to output judged json")
+args, _ = parser.parse_known_args()
+
+api_key = args.api_key or os.getenv("GEMINI_API_KEY")
+if not api_key:
+    raise ValueError("GEMINI_API_KEY must be provided via --api-key or environment variable!")
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-3.8-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 JUDGE_PROMPT_TEMPLATE = """You are an expert evaluator assessing the performance of a fine-tuned language model.
@@ -122,12 +128,6 @@ def run_judge(
 
 
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser(description="Evaluate model responses with Gemini LLM-as-a-judge")
-    parser.add_argument("--input", type=str, default="checkpoints/eval_results.json", help="Path to input evaluation json")
-    parser.add_argument("--output", type=str, default="results/judged_results.json", help="Path to output judged json")
-    args = parser.parse_args()
-
     run_judge(input_file=args.input, output_file=args.output)
 
 
