@@ -18,7 +18,7 @@ if not api_key:
     raise ValueError("GEMINI_API_KEY must be provided via --api-key or environment variable!")
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-3.8-flash")
 
 
 JUDGE_PROMPT_TEMPLATE = """You are an expert evaluator assessing the performance of a fine-tuned language model.
