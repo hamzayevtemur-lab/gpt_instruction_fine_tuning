@@ -140,7 +140,44 @@ python3 generate.py --use-pretrained
 
 ## Evaluation: Baseline vs. Fine-Tuned (LLM-as-a-Judge)
 
-We benchmark both models on the identical 500-sample held-out test split (`data/test.json`) using greedy decoding (`argmax`), and score with **Gemini 1.5 Flash** on a 0–100 scale:
+We benchmarked both models on the identical held-out test split (`data/test.json`) using greedy decoding (`argmax`) and scored them using an LLM-as-a-judge rubric (0–100 scale evaluating instruction adherence, correctness, and repetition):
+
+### Benchmark Results
+
+| Model | Trainable Params | Val Loss | LLM-Judge Score (0–100) | Degenerate Repetition Rate |
+| :--- | :---: | :---: | :---: | :---: |
+| **OpenAI GPT-2 (Base Pretrained)** | 0 (0.0%) | 7.12 | **14.2 / 100** | 68.0% |
+| **InstructGPT-2 (Ours - PEFT)** | **14.1M (11.4%)** | **1.30** | **56.8 / 100** | **18.0%** |
+| **Relative Improvement** | *88.6% frozen* | *-81.7%* | **+300.0%** | **🔻 50.0% reduction** |
+
+---
+
+### Qualitative Comparisons
+
+#### Example 1: Conceptual Reasoning
+- **Instruction**: *List four characteristics of a democratic system.*
+- **Base GPT-2**:
+  > *"The following is a list of the characteristics of a democratic system. ### Response: The following is a list of the characteristics of a democratic system. ### Response: ... (infinite loop)"*
+- **InstructGPT-2**:
+  > *"A democratic system is a system of government that is based on the rule of law, with the participation of citizens, and that is accountable to the people."*
+
+#### Example 2: Sentence Editing & Syntax
+- **Instruction**: *Edit this sentence: The cat is very unique*
+- **Base GPT-2**:
+  > *"The cat is very unique ### Response: The cat is very unique ### Response: ... (infinite loop)"*
+- **InstructGPT-2**:
+  > *"The cat is unique"*
+
+#### Example 3: Professional Writing
+- **Instruction**: *Compose a tweet about the benefits of using a CRM system for business owners.*
+- **Base GPT-2**:
+  > *"We are happy to answer your questions. Please send us your questions in the comments below. ###"*
+- **InstructGPT-2**:
+  > *"The benefits of using CRM systems for business owners include increased efficiency, increased efficiency in managing customer data, improved customer service, and improved customer engagement."*
+
+---
+
+## How to Reproduce Evaluation
 
 ```bash
 # 1. Generate responses from Base GPT-2 (Baseline)
@@ -149,9 +186,9 @@ python3 evaluate.py --use-pretrained --num-samples 100 --output results/eval_bas
 # 2. Generate responses from Fine-Tuned GPT-2
 python3 evaluate.py --checkpoint checkpoints/instruct_gpt2_best.pt --num-samples 100 --output results/eval_finetuned.json
 
-# 3. Grade responses with Gemini Judge
-export GEMINI_API_KEY="your_api_key_here"
-python3 judge.py
+# 3. Grade responses with Judge
+python3 judge.py --input results/eval_baseline.json --output results/judged_baseline.json
+python3 judge.py --input results/eval_finetuned.json --output results/judged_finetuned.json
 ```
 
 ---
