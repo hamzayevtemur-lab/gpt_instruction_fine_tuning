@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "instruction": "List four characteristics of a democratic system.",
+    "input": "",
+    "reference_output": "Characteristics of a democratic system include: 1) popular sovereignty which is the notion that citizens have ultimate authority over the government, 2) majority rule with the protection of minority rights, 3) free and fair elections where the citizen’s vote is the basis for the governing power, 4) accountability whereby the government is held responsible for its decisions by the people.",
+    "model_response": "A democratic system is a system of government that is based on the rule of law, with the participation of citizens, and that is accountable to the people. It is based on the rule of law, with the participation of citizens, and that is accountable to the people. It is based on the rule of law, with the participation of citizens, and that is accountable to the people. It is based on the rule of law, with the participation of citizens, and that is accountable to the people. It is based on the rule of law, with the participation of citizens, and that is accountable to the people. It is based on the"
+  },
+  {
+    "id": 2,
+    "instruction": "Assign the following verb a category of either transitive, intransitive, or linking.",
+    "input": "Jumped",
+    "reference_output": "Intransitive.",
+    "model_response": "Jumped"
+  },
+  {
+    "id": 3,
+    "instruction": "Generate a class schedule for a college student focusing on Biology and Math.",
+    "input": "",
+    "reference_output": "The student's class schedule could include Biology 101, Math 101, Biology 102, Math 102, Biology Lab, Math Lab, and Biology 104. On alternate weeks, they could have a research seminar in Biology and another focused on Math.",
+    "model_response": "The schedule for a college student focusing on Biology and Math should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a list of topics such as biology, chemistry, and physics. Additionally, the schedule should include a"
+  },
+  {
+    "id": 4,
+    "instruction": "Name a two-word phrase to describe the concept of taking risks.",
+    "input": "",
+    "reference_output": "\"Taking chances\".",
+    "model_response": "The two-word phrase should be a sentence that describes the risks involved in taking risks."
+  },
+  {
+    "id": 5,
+    "instruction": "Explain why the actions taken by a certain character are morally wrong.",
+    "input": "The protagonist of the story steals from a store.",
+    "reference_output": "The protagonist's actions are morally wrong because they involve taking something that does not belong to them without permission. Stealing is wrong as it harms the store, the owner, and other customers who would have bought the items if they had not been stolen. It also sets a bad example and might encourage others to steal as well.",
+    "model_response": "The protagonist steals from a store."
+  },
+  {
+    "id": 6,
+    "instruction": "Choose the correct tenses used in the sentence",
+    "input": "Yesterday I going to the store",
+    "reference_output": "Yesterday I went to the store.",
+    "model_response": "Yesterday I going to the store"
+  },
+  {
+    "id": 7,
+    "instruction": "Edit this sentence for grammar and syntax.",
+    "input": "He ran quickly acoss the strett and in door.",
+    "reference_output": "He ran quickly across the street and through the door.",
+    "model_response": "He ran quickly and in door."
+  },
+  {
+    "id": 8,
+    "instruction": "Name three vegetables that have a reddish hue when raw.",
+    "input": "",
+    "reference_output": "Three vegetables that have a reddish hue when raw are tomatoes, beets, and red peppers.",
+    "model_response": "Three vegetables that have a reddish hue when raw."
+  },
+  {
+    "id": 9,
+    "instruction": "Summarize the paragraph in 5-8 words.",
+    "input": "Robotics is a field of engineering focused on the design and manufacture of robots. It requires a range of skills, including programming, problem solving and creative thinking.",
+    "reference_output": "Designing and manufacturing robots.",
+    "model_response": "Robotics is a field of engineering focused on the design and manufacture of robots. It requires a range of skills, including programming, problem solving and creative thinking."
+  },
+  {
+    "id": 10,
+    "instruction": "Classify the following types of cars: Toyota Corolla, Hyundai Sonata, and Lexus LS400.",
+    "input": "Toyota Corolla, Hyundai Sonata, and Lexus LS400",
+    "reference_output": "Toyota Corolla: Compact\nHyundai Sonata: Mid-Size\nLexus LS400: Luxury",
+    "model_response": "Toyota Corolla, Hyundai Sonata, and Lexus LS400"
+  },
+  {
+    "id": 11,
+    "instruction": "Compose a tweet about the benefits of using a CRM system for business owners.",
+    "input": "",
+    "reference_output": "Business owners can benefit from using a Customer Relationship Management (CRM) system. It can help them streamline and automate their customer interactions, provide automated insights and data-driven reports on customer preferences and trending behaviour, and help in efficiently managing customer relationships. #CRM #business #growth #automation",
+    "model_response": "The benefits of using CRM systems for business owners include increased efficiency, increased efficiency in managing customer data, improved customer service, and improved customer engagement."
+  },
+  {
+    "id": 12,
+    "instruction": "Edit this sentence:\nThe cat is very unique",
+    "input": "",
+    "reference_output": "The cat is very remarkable.",
+    "model_response": "The cat is unique"
+  },
+  {
+    "id": 13,
+    "instruction": "Build a welcome speech for a college graduation ceremony.",
+    "input": "",
+    "reference_output": "Good morning everyone! It is an honor to welcome you all to today’s graduation ceremony - a momentous occasion that marks the end of our students’ years of hard work and dedication at this school. We ll take pride in all that has been achieved and all that is yet to come. On this special day, we congratulate our graduating students and offer them our best wishes for success in their future endeavors.",
+    "model_response": "A college graduation ceremony is a ceremony that honors the person, tradition, and values of the college. It is a time for reflection and reflection on the past, present, and future of the college. It is a time for reflection and reflection on the future of the college. It is a time for reflection and reflection on the future of the college. It is a time for reflection and reflection on the future of the college. It is a time for reflection and reflection on the future of the college. It is a time for reflection and reflection on the future of the college. It is a time for reflection and reflection on the future of the"
+  },
+  {
+    "id": 14,
+    "instruction": "Write some code to calculate the area of a triangle given 3 sides.",
+    "input": "",
+    "reference_output": "\"\"\"\nCalculate the area of a triangle given 3 sides\n\"\"\"\n\ndef area_triangle(a, b, c): \n    # calculate the semi-perimeter \n    s = (a + b + c) / 2\n  \n    # calculate the area \n    area = (s * (s-a) * (s-b) * (s-c)) ** 0.5\n    return area \n  \n# Driver Code \n# a, b, c are lengths of the sides of triangle\na = 4\nb = 5\nc = 6\nprint(\"Area of triangle is : %.2f\" % area_triangle(a, b, c))",
+    "model_response": "The area of a triangle is 3."
+  },
+  {
+    "id": 15,
+    "instruction": "Create a business logo for a boutique hotel and explain how it conveys the brand message.",
+    "input": "Brand Name: Moon Palace.",
+    "reference_output": "The business logo for a boutique hotel Moon Palace conveys the brand message by depicting a crescent moon as the backdrop of a majestic palace to evoke a feeling of restfulness and luxury. The warm and inviting colors used in the logo reflect the comfort and relaxation that guests can find from the hotel. Furthermore, the simple and elegant font used for the name of the hotel creates an aura of sophistication, luxury and lushness that customers can expect from the hotel and its services.",
+    "model_response": "The Moon Palace logo should be a simple, modern, and modern design. It should be simple, modern, and modern, with a simple, modern design that conveys the brand message. It should be a simple, modern, and modern design, with a simple, modern design that conveys the brand message. It should be a simple, modern, and modern design, with a simple, modern design that conveys the brand message. It should be a simple, modern, and modern design, with a simple, modern design that conveys the brand message. It should be a simple, modern, and modern design, with a simple"
+  },
+  {
+    "id": 16,
+    "instruction": "Rate the following person on a scale from one to three: Chris",
+    "input": "",
+    "reference_output": "I would rate Chris a three. He is an enthusiastic and reliable person who consistently achieves his goals. He is always willing to help out others and is a great communicator.",
+    "model_response": "Chris is a good listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also a great listener and has a great sense of humor. He is also"
+  },
+  {
+    "id": 17,
+    "instruction": "Evaluate the given websites according to their usability and functionality.",
+    "input": "Websites: website1.com, website2.com",
+    "reference_output": "Website1.com has a clear and intuitive layout and navigation, as well as an aesthetically pleasing design. It is easy to use and all of the pages load quickly. Website2.com is more cluttered, with an overly complicated navigation and design. It is difficult to understand and the pages take a long time to load.",
+    "model_response": "The website1.com website is a popular website for web developers and web designers. It is designed to be easy to use and to provide a variety of useful features. It is also a great way to learn about the web and its applications. It is also a great way to learn about the web and its applications. It is also a great way to learn about the web and its applications. It is also a great way to learn about the web and its applications. It is also a great way to learn about the web and its applications. It is also a great way to learn about the web and its applications. It is also a"
+  },
+  {
+    "id": 18,
+    "instruction": "Make an API call to the given URL and print the output in the console.",
+    "input": "https://data.cityofnewyork.us/resource/fhrw-4uyv.json",
+    "reference_output": "\"\"\"\nMake an API call to the given URL and print the output in the console\n\"\"\"\n\nimport requests \n\nurl = \"https://data.cityofnewyork.us/resource/fhrw-4uyv.json\" \nresponse = requests.get(url) \n\nif response.status_code == 200: \n    data = response.json() \n    print(data)",
+    "model_response": "https://data.cityofnewyork.us/resource/fhrw-4uyv.json"
+  },
+  {
+    "id": 19,
+    "instruction": "Describe what are the features that makes blockchain technology secure.",
+    "input": "",
+    "reference_output": "Blockchain technology is secure because it is immutable, meaning the data stored in it can't be changed once it is recorded; transparent, meaning all parties involved are able to view the transaction data; distributed, meaning the data is not concentrated in one place; and protected, meaning it is encrypted with strong cryptography.",
+    "model_response": "The blockchain technology is secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is decentralized, meaning that it is not subject to any central authority. It is also secure because it is"
+  },
+  {
+    "id": 20,
+    "instruction": "Explain why the following sentence is grammatically incorrect.",
+    "input": "I seen a dog.",
+    "reference_output": "This sentence is grammatically incorrect because \"seen\" is not the correct form of the verb \"see\". The correct form of the verb should be \"saw\". The sentence should read \"I saw a dog\".",
+    "model_response": "The sentence is grammatically incorrect."
+  },
+  {
+    "id": 21,
+    "instruction": "Rewrite the following sentence to add one adverb:",
+    "input": "She sang a song.",
+    "reference_output": "She sang a song exuberantly.",
+    "model_response": "She sang a song."
+  },
+  {
+    "id": 22,
+    "instruction": "You are provided with a brief description of a product feature. You should generate realistic examples of how the feature can be used by the customers.\nOutput 3 examples.",
+    "input": "The product feature is a search engine that allows customers to quickly find the answers to their questions.",
+    "reference_output": "1. A customer searching for information about the cost of airfare for their upcoming vacation.\n2. A customer looking for a specific model car with specific features. \n3. A customer trying to find out what type of activities are available at a nearby resort.",
+    "model_response": "The product feature allows customers to quickly find the answers to their questions."
+  },
+  {
+    "id": 23,
+    "instruction": "Rewrite the following sentence to make it humorous: Peter went to the store to buy a new ball.",
+    "input": "",
+    "reference_output": "Peter skipped merrily over the rainbow to the store to purchase an exquisite new bouncy ball.",
+    "model_response": "Peter went to the store to buy a new ball."
+  },
+  {
+    "id": 24,
+    "instruction": "Rewrite the following paragraph using fewer than 100 words.",
+    "input": "The museum had an interesting collection. The paintings were bright and full of energy. There were sculptures and pottery from different cultures, each delicate and beautifully crafted. There was also a collection of ancient tools and weapons from various regions, including swords and bows.",
+    "reference_output": "The museum boasted diverse ranges of art. Vibrant paintings brought life to walls, and sculptures, pottery, and ancient tools and weapons showcased the work of various cultures. Weapons such as swords and bows were showcased among the many artifacts.",
+    "model_response": "The museum had an interesting collection. The paintings were bright and full of energy. There were sculptures and pottery from different cultures, each delicate and beautifully crafted. There was also a collection of ancient tools and weapons from various regions, including swords and bows."
+  },
+  {
+    "id": 25,
+    "instruction": "Generate a data-driven research report on the effects of COVID-19 in the food industry.",
+    "input": "",
+    "reference_output": "A recent study has found that the COVID-19 pandemic has had a significant impact on the global food industry. The study, which surveyed 5,000 restaurants in Europe, the US and Asia Pacific regions, revealed that the estimated global loss of sales in the food service industry amounts to almost $430 billion. The sectors most affected were sit-down restaurants, fast food outlets and cafes, who have experienced the greatest declines in sales. In addition to the loss of sales, the food industry has also seen an overall decrease in consumer confidence, with 80% of restaurants reporting a drop in consumer confidence since the beginning of the pandemic. The disruption of supply chains has caused price fluctuations and shortages, making it more difficult for restaurants to purchase ingredients and feed their customers. Looking ahead, the food industry will certainly be affected by further disruption, with the need to continue to find solutions and innovative methods of foodservice.",
+    "model_response": "The research report should include a summary of the findings and recommendations of the research team, as well as recommendations for further research."
+  },
+  {
+    "id": 26,
+    "instruction": "Given a list of books, recommend a book that would be suitable for someone with a particular interest.",
+    "input": "The Catcher in the Rye, The Great Gatsby, 1984",
+    "reference_output": "For someone who is interested in dystopian fiction, 1984 by George Orwell would be a suitable book to read.",
+    "model_response": "The Catcher in the Rye is a classic novel by William Shakespeare. It follows a young man named John, who is sent to a remote village to find a lost family. He is soon confronted by a group of villagers, who are determined to find the missing man. The novel follows the story of John's journey, as he tries to find his lost family and find his way back home."
+  },
+  {
+    "id": 27,
+    "instruction": "Compose a limerick that celebrates the joy of autumn.",
+    "input": "",
+    "reference_output": "As leaves drift down to the ground\nAutumn joy will be found\nIn the spicy scent of stew\nAnd the sights we all view\nTo usher in a joyous sound.",
+    "model_response": "The limerick is a celebration of the joy of autumn, and the joy of the harvest. It is a celebration of the harvest, and the harvest of the harvest. It is a celebration of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest of the harvest"
+  },
+  {
+    "id": 28,
+    "instruction": "Detect if the given passage contains a rhetorical question.",
+    "input": "Can you believe it took him all of three minutes to build the birdhouse?",
+    "reference_output": "Yes",
+    "model_response": "He was so focused on building the birdhouse that he couldn't even think of a question."
+  },
+  {
+    "id": 29,
+    "instruction": "Explain why the following code won't execute properly.",
+    "input": "`foo = bar(1, 2, 3)\nprint(foo)`",
+    "reference_output": "This code won't execute properly because 'bar' is not defined as a function within the code. The code is trying to call a function called 'bar' that does not exist, resulting in an error. In order to fix this, the code must include a function definition for 'bar', which contains instructions for what the function should do when it is called.",
+    "model_response": "The code will print out a barcode of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60"
+  },
+  {
+    "id": 30,
+    "instruction": "Generate 3-4 ideas for new products that could be launched in the pet industry.",
+    "input": "",
+    "reference_output": "1. A pet tag that includes a personalized message for your pet.\n2. An interactive toy for cats that responds to motion, sound, and touch.\n3. A pet feeding and tracking app that sends reminders to pet owners and tracks food consumption.\n4. A subscription-based pet grooming service that includes monthly scented baths and haircuts.",
+    "model_response": "1. The pet industry is a complex and complex business. It is important to understand the challenges and opportunities that pet owners face.\n2. The pet industry is a complex and complex business. It is important to understand the challenges and opportunities that pet owners face. \n3. The pet industry is a complex and complex business. It is important to understand the challenges and opportunities that pet owners face. \n4. The pet industry is a complex and complex business. It is important to understand the challenges and opportunities that pet owners face. \n5. The pet industry is a complex and complex business. It is important to understand"
+  },
+  {
+    "id": 31,
+    "instruction": "Answer the following question: What is the weather in Tajikistan in December?",
+    "input": "",
+    "reference_output": "The weather in Tajikistan in December is generally cold, with temperatures ranging from lows of -8 degrees Celsius to highs of 6 degrees Celsius. snowfall is common in the mountainous region, and temperatures may drop as low as -20 degrees Celsius at night. It is important to wear warm and layered clothing for protection from the cold.",
+    "model_response": "The weather in Tajikistan in December is generally mild and pleasant. The weather in Tajikistan in December is generally mild and pleasant."
+  },
+  {
+    "id": 32,
+    "instruction": "Given the following clause, think of a relevant word from your experience so that the following clause can acquire more depth.",
+    "input": "He was a keen _________ .",
+    "reference_output": "He was a keen observer.",
+    "model_response": "He was a keen _________ ."
+  },
+  {
+    "id": 33,
+    "instruction": "Translate this sentence into Japanese: “You are the light of my life”",
+    "input": "",
+    "reference_output": "あなたは私の人生の光です。 This is translated as \"Anata wa watashi no jinsei no hikari desu\" in Japanese.",
+    "model_response": "The light of my life is the light of my life."
+  },
+  {
+    "id": 34,
+    "instruction": "Pick the best response based on the given situation.",
+    "input": "Your friend just asked for your honest opinion about their new outfit.",
+    "reference_output": "I think it looks great on you!",
+    "model_response": "Your friend is a bit confused about their new outfit."
+  },
+  {
+    "id": 35,
+    "instruction": "Provide an example of Newton's second law of motion.",
+    "input": "",
+    "reference_output": "For example, when a car accelerates, it is because an equal and opposite force is exerted back by the car's engine. This follows Newton's second law of motion, which states that the acceleration of an object is dependent on the net force applied and its mass.",
+    "model_response": "The second law of motion states that the speed of light is proportional to the distance between two points. This law is known as the Newtonian law of gravitation."
+  },
+  {
+    "id": 36,
+    "instruction": "Explain the difference between a URL and a domain name.",
+    "input": "",
+    "reference_output": "A URL (Uniform Resource Locator) is the specific address of a website which includes the domain name, the directory, and the file name. A domain name is the website name, such as example.com. The domain name is part of the URL but is not the full URL, as it does not include any specific information about the directory or file.",
+    "model_response": "A domain name is a URL that is used to store information about a user or a product. It is typically used to store information about a user or a product, such as a product name, contact information, or product contact information. It can also be used to store information about a product, such as a product name, contact information, or product contact information."
+  },
+  {
+    "id": 37,
+    "instruction": "Given a list of cities, determine the closest one to the equator.",
+    "input": "Madrid, Cairo, Beijing, Tokyo",
+    "reference_output": "Cairo.",
+    "model_response": "The closest city to the equator is Beijing, which is located in the southern part of the country."
+  },
+  {
+    "id": 38,
+    "instruction": "Classify the type of material provided.",
+    "input": "The material is a poem about the beauty of nature.",
+    "reference_output": "The material is a poem about the beauty of nature and is classified as a work of literature.",
+    "model_response": "The poem is a poem about the beauty of nature."
+  },
+  {
+    "id": 39,
+    "instruction": "Based on this description, infer the age of the person.",
+    "input": "The person has grey hair, wrinkles around the eyes, and uses a cane to walk.",
+    "reference_output": "The person is likely over 60 years old.",
+    "model_response": "The person is tall, with a thin build and a thin build."
+  },
+  {
+    "id": 40,
+    "instruction": "Write a definition of the term “natural language processing” in less than 50 words.",
+    "input": "",
+    "reference_output": "Natural language processing is a field of computer science that uses algorithms to understand and generate human languages.",
+    "model_response": "Natural language processing is a type of machine learning that uses machine learning algorithms to classify and classify data. It is used to identify patterns in data and to identify patterns in data that are not normally associated with human behavior. It is used to identify patterns in data that are not normally associated with human behavior. It is used to identify patterns in data that are not normally associated with human behavior. It is used to identify patterns in data that are not normally associated with human behavior. It is used to identify patterns in data that are not normally associated with human behavior. It is used to identify patterns in data that are not normally associated with human behavior."
+  },
+  {
+    "id": 41,
+    "instruction": "Read the text below and find the subject of the sentence",
+    "input": "The museum held a protest in response to the ruling.",
+    "reference_output": "The subject of the sentence is \"museum\".",
+    "model_response": "The museum held a protest in response to the ruling."
+  },
+  {
+    "id": 42,
+    "instruction": "What is the importance of nutrition in maintaining physical health?",
+    "input": "",
+    "reference_output": "Nutrition is important for maintaining physical health for several reasons. Eating a balanced, nutrient-rich diet helps the body to get the energy, vitamins, minerals, and other nutrients it needs to function effectively. Nutrition also plays an important role in helping to heal and repair the body, reducing inflammation, and protecting against various chronic diseases. Eating a nutritious diet is therefore essential for maintaining good physical health.",
+    "model_response": "The importance of nutrition in maintaining physical health is a complex topic that requires a variety of perspectives. The main focus of nutrition is to maintain a healthy weight, maintain a healthy weight, and maintain a healthy weight. The main focus of nutrition is to maintain a healthy weight, maintain a healthy weight, and maintain a healthy weight. The main focus of nutrition is to maintain a healthy weight, maintain a healthy weight, and maintain a healthy weight. The main focus of nutrition is to maintain a healthy weight, maintain a healthy weight, and maintain a healthy weight. The main focus of nutrition is to maintain a healthy weight, maintain a healthy weight,"
+  },
+  {
+    "id": 43,
+    "instruction": "Rewrite the following sentence so that it contains positive language.",
+    "input": "Don't wait for the worst to happen.",
+    "reference_output": "Be prepared for the best outcome.",
+    "model_response": "The worst is now over."
+  },
+  {
+    "id": 44,
+    "instruction": "Write an alternative sentence using the same words.",
+    "input": "She rode her bicycle to school.",
+    "reference_output": "She cycled her bicycle to school.",
+    "model_response": "She was a little nervous."
+  },
+  {
+    "id": 45,
+    "instruction": "Create a list of five items related to the field of cybersecurity.",
+    "input": "",
+    "reference_output": "1. Firewalls\n2. Encryption\n3. Intrusion detection systems\n4. Antivirus software\n5. Network security scanners",
+    "model_response": "1. Cybersecurity is a complex field, requiring a wide range of skills and expertise. It is important to understand the field and its implications for the security of our information systems.\n2. Cybersecurity is a complex field, requiring a wide range of skills and expertise. It is important to understand the field and its implications for the security of our information systems.\n3. Cybersecurity is a complex field, requiring a wide range of skills and expertise. It is important to understand the field and its implications for the security of our information systems.\n4. Cybersecurity is a complex field, requiring a wide range of skills and expertise"
+  },
+  {
+    "id": 46,
+    "instruction": "Write a laptop review on the given laptop",
+    "input": "Lenovo Yoga 920",
+    "reference_output": "I recently purchased the Lenovo Yoga 920 and I'm absolutely in love with it. It's incredibly powerful, featuring an Intel i7 processor, a 14\" touch screen display, and 8GB of RAM. The keyboard is backlit and very comfortable to type on, and the trackpad is extremely responsive. Battery life is very good, and the laptop stays cool even when in use. Overall, this is an excellent choice for anyone who's looking for a powerful, reliable laptop.",
+    "model_response": "The laptop review should be done on the laptop with the latest version of the software. The laptop should be able to run the latest version of the software."
+  },
+  {
+    "id": 47,
+    "instruction": "Provide an example of a circumstance in which a lie can be more beneficial than the truth.",
+    "input": "",
+    "reference_output": "A circumstance in which a lie can be more beneficial than the truth is if someone is trying to protect someone else from hurt. For example, telling an ill family member that their tests came back looking good instead of revealing bad news.",
+    "model_response": "The truth is that lies are often more beneficial than truth. They can be used to deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive, deceive"
+  },
+  {
+    "id": 48,
+    "instruction": "Suggest three activities that I can do to relax after a long day.",
+    "input": "",
+    "reference_output": "1. Take a warm bath with essential oils \n2. Read a book in a comfy chair \n3. Listen to calming music or a guided meditation",
+    "model_response": "1. Take a break from work and relax.\n2. Take a nap.\n3. Take a walk.\n4. Take a yoga class.\n5. Take a yoga class.\n6. Take a yoga class.\n7. Take a yoga class.\n8. Take a yoga class.\n9. Take a yoga class.\n10. Take a yoga class.\n11. Take a yoga class.\n12. Take a yoga class.\n13. Take a yoga class.\n14. Take a yoga class.\n15. Take a yoga class.\n16. Take a yoga class."
+  },
+  {
+    "id": 49,
+    "instruction": "Describe a city that you would like to visit.",
+    "input": "",
+    "reference_output": "I would love to visit the city of Barcelona, Spain. This seaside city is known for its vibrant culture, colorful buildings, and iconic architecture. There are plenty of things to do, including exploring the Gothic Quarter, tapas hopping along Las Ramblas, and relaxing on the beach. Additionally, Barcelona has world-renowned museums, such as the Picasso Museum and the National Museum of Catalan Art. Barcelona is also home to some of the best food in the world, ranging from seafood paella to traditional Spanish tortillas. It is truly an amazing city and I look forward to one day visiting it.",
+    "model_response": "The city should be a city of people, not a city of people."
+  },
+  {
+    "id": 50,
+    "instruction": "Generate a catchy headline for an article about the advantages of building with bamboo.",
+    "input": "",
+    "reference_output": "\"Surprising Benefits of Building with Bamboo: Reap the Benefits of Environmentally Friendly Construction!\"",
+    "model_response": "The bamboo is a great addition to any home, and it is a great addition to any kitchen. It is also a great addition to any home decor, and it is a great addition to any home décor. It is also a great addition to any home décor, and it is a great addition to any home decor. It is also a great addition to any home decor, and it is a great addition to any home decor. It is also a great addition to any home decor, and it is a great addition to any home decor. It is also a great addition to any home decor, and it is a great addition to"
+  },
+  {
+    "id": 51,
+    "instruction": "Suggest a novel product concept and a corresponding value proposition in less than 100 words.",
+    "input": "",
+    "reference_output": "We propose an automated personal energy adviser, a digital assistant which assesses an individual's energy needs and provides tailored advice to improve their energy efficiency. Our product provides users with a goal-oriented, supportive, and personalized energy experience. Additionally, the adviser can deliver direct incentives for people to achieve their energy goals. This value proposition is focused on reducing energy costs for individuals and businesses, whilst also reducing their environmental impact.",
+    "model_response": "The product concept should be a product of two concepts, one of which is a product of two concepts, and the other of which is a product of two concepts. The product concept should be a product of two concepts, one of which is a product of two concepts, and the other of which is a product of two concepts. The product concept should be a product of two concepts, one of which is a product of two concepts, and the other of which is a product of two concepts. The product concept should be a product of two concepts, one of which is a product of two concepts, and the other of which is a product"
+  },
+  {
+    "id": 52,
+    "instruction": "Rearrange the following sentence to make it grammatically correct:\n\neat likes vegetables my cat",
+    "input": "",
+    "reference_output": "My cat likes to eat vegetables.",
+    "model_response": "eat likes vegetables my cat"
+  },
+  {
+    "id": 53,
+    "instruction": "Find a Maths equation to calculate the area of an equilateral triangle.",
+    "input": "",
+    "reference_output": "The equation to calculate the area of an equilateral triangle is A = (√3/4)a2 where a is the side length of the triangle.",
+    "model_response": "The area of an equilateral triangle is equal to the area of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root of the square root"
+  },
+  {
+    "id": 54,
+    "instruction": "Given a sentence, output the sum of all numbers mentioned in the sentence.",
+    "input": "I have five books and ten pens.",
+    "reference_output": "15",
+    "model_response": "I have five books and ten pens."
+  },
+  {
+    "id": 55,
+    "instruction": "Describe an optimal environment for studying.",
+    "input": "",
+    "reference_output": "The environment for studying should be comfortable, empowering and inspiring. The space should be well-lit, away from distractions and with access to natural light. It should be clean and tidy, and free of unnecessary clutter. The seating should be comfortable and the home or school should be set up to provide ample space for studying. The temperature should be pleasant and conducive to help focus on studying. Finally, it is ideal to have access to writing materials and technological tools such as a computer, if necessary.",
+    "model_response": "An optimal environment for studying is one that allows students to explore the world in a way that is conducive to their learning. Students should be able to explore the world in a way that is conducive to their learning, while also being able to explore the world in a way that is conducive to their learning. Students should be able to explore the world in a way that is conducive to their learning, while also being able to explore the world in a way that is conducive to their learning."
+  },
+  {
+    "id": 56,
+    "instruction": "Create an opening paragraph for a poem about nature.",
+    "input": "",
+    "reference_output": "Look around you and see the beauty of nature. Hear the birds sing in a melodic call, see the lush trees standing tall. Feel the warm sun rays embracing you and smell the sweet scent of flowers blooming anew. Come and take a journey with me through a natural paradise, and explore all of the beauty that the Earth can provide.",
+    "model_response": "Nature is a beautiful thing, and it is important to us to preserve it. It is important to us to preserve the beauty of nature, and to preserve the beauty of nature as a whole. It is important to us to preserve the beauty of nature as a whole, and to preserve the beauty of nature as a whole."
+  },
+  {
+    "id": 57,
+    "instruction": "Name a type of flower often used in bouquets.",
+    "input": "",
+    "reference_output": "Roses are a popular flower often used in bouquets.",
+    "model_response": "A flower is a type of flower that is usually found in flowers, such as roses, apricots, and other flowers. It is usually found in flowers that are usually green or yellow, such as roses, apricots, and other flowers."
+  },
+  {
+    "id": 58,
+    "instruction": "In one sentence, define the concept of \"circular economy\".",
+    "input": "",
+    "reference_output": "A circular economy is an economic system aimed at eliminating waste and the continual use of resources.",
+    "model_response": "Circular economy is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction. It is a concept that describes the process of economic growth and the process of economic contraction."
+  },
+  {
+    "id": 59,
+    "instruction": "Classify the given article as either politics, sports, or science.",
+    "input": "Humans have discovered evidence of liquid water on Mars.",
+    "reference_output": "Science",
+    "model_response": "Science has shown that water on Mars is not the same as water on Earth."
+  },
+  {
+    "id": 60,
+    "instruction": "Delete the extra spaces in the following the sentence, output the clean sentence.",
+    "input": "The quick     brown     fox  jumps over  the   lazy   dog",
+    "reference_output": "The quick brown fox jumps over the lazy dog",
+    "model_response": "The clean sentence is:"
+  },
+  {
+    "id": 61,
+    "instruction": "Given a context, complete a dialogue between two people",
+    "input": "John: I don't understand why my sales are down this month.",
+    "reference_output": "Sandra: Maybe it's because your competitors have been expanding their products and offering lower prices? Have you taken a look at their offerings recently?\n\nJohn: Yeah, you're right. I haven't been keeping up with what they're doing and it's cost me business. I better get back on track.\n\nSandra: That's a good idea. Maybe you can find a way to differentiate your products and services, so you can stand out in the market.\n\nJohn: That's a great suggestion. I think I know what to do. Thanks for your help.",
+    "model_response": "John: I understand. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry"
+  },
+  {
+    "id": 62,
+    "instruction": "Evaluate the accuracy of the following statement: \"Money can buy happiness\".",
+    "input": "",
+    "reference_output": "While having more money can certainly provide comfort and security, it is not necessarily a guarantee of happiness; happiness is largely dependent on one's outlook and personal circumstances.",
+    "model_response": "Money can buy happiness."
+  },
+  {
+    "id": 63,
+    "instruction": "Provide a phrase that accurately describes a high-performance engine",
+    "input": "",
+    "reference_output": "Powerhouse of performance.",
+    "model_response": "A high-performance engine is a type of engine that is designed to perform well in a variety of conditions, such as extreme temperatures, extreme weather, and extreme weather conditions. High-performance engines are typically designed to be able to perform at least some of these tasks, such as engine cooling, transmission fluid flow, and engine performance."
+  },
+  {
+    "id": 64,
+    "instruction": "Edit the following sentence: The elephant was walking towards the river.",
+    "input": "The elephant was walking towards the river.",
+    "reference_output": "The elephant trudged steadily towards the river.",
+    "model_response": "The elephant was walking towards the river."
+  },
+  {
+    "id": 65,
+    "instruction": "Identify the type of pun used in the following joke.",
+    "input": "Q: What did the grape say when it was stepped on?\nA: Nothing - it just let out a little whine.",
+    "reference_output": "The joke is an example of a pun based on homophones. The joke is using the homophones \"wine\" and \"whine\" for comedic effect.",
+    "model_response": "The grape said it was a grape, but it was a grape."
+  },
+  {
+    "id": 66,
+    "instruction": "Compose a short poem (between 5 to 10 lines) with the given title.",
+    "input": "Title: A Sunny Day",
+    "reference_output": "The sky is so bright and clear\nI can almost feel the sun\nIt warms my heart and my soul\nMaking me feel so alive\nThe gentle rays of sunshine\nGiving me the energy to move\nSuch a wonderful day\nFilled with warmth and love\nA sunny day so sweet\nCausing me to dance on my feet.",
+    "model_response": "A sunny day is a day when the sun sets and the sky is clear. It is a time of peace and quiet, when people are free to explore their surroundings and enjoy the beauty of nature."
+  },
+  {
+    "id": 67,
+    "instruction": "Given a set of numbers, find the largest subset whose sum is less than or equal to a given sum.",
+    "input": "Set: {3,12,2,7,8,4} \nTarget sum: 15",
+    "reference_output": "{3,12,2}",
+    "model_response": "The sum of the largest subset of the numbers is 15."
+  },
+  {
+    "id": 68,
+    "instruction": "Determine how this example sentence illustrates parallel structure.",
+    "input": "My brother loves to play video games, watch movies, and to read books.",
+    "reference_output": "This sentence illustrates parallel structure by using the same verb form (\"to play\", \"to watch\", and \"to read\") for each of the activities listed in the sentence. This creates a smoother and more balanced sentence that reads more smoothly.",
+    "model_response": "My brother loves to play video games, watch movies, and to read books."
+  },
+  {
+    "id": 69,
+    "instruction": "Design a logo for the \"Green Earth Society\".",
+    "input": "",
+    "reference_output": "A logo for the \"Green Earth Society\" could be an image of a globe surrounded by green vines and leaves, with the words \"Green Earth Society\" underneath.",
+    "model_response": "The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-profit organization dedicated to promoting sustainable development and environmental stewardship. The Green Earth Society is a non-"
+  },
+  {
+    "id": 70,
+    "instruction": "Edit this sentence to use a gerund",
+    "input": "I felt excited to visit the museum",
+    "reference_output": "I felt excited visiting the museum.",
+    "model_response": "I was excited to visit the museum"
+  },
+  {
+    "id": 71,
+    "instruction": "Given a string, write a code snippet to reverse the order of the words.",
+    "input": "\"Hello World\"",
+    "reference_output": "const reverseString = str =>\n  str\n    .split(\" \")\n    .reverse()\n    .join(\" \");\n    \nreverseString(\"Hello World\"); // Output: \"World Hello\"",
+    "model_response": "Hello World"
+  },
+  {
+    "id": 72,
+    "instruction": "Generate a new punchline based on this joke.",
+    "input": "Q: Why did the duck go to the doctor?\nA: To get some quack medicine.",
+    "reference_output": "Q: Why did the chicken go to the pharmacist?\nA: To get some fowl medication.",
+    "model_response": "The duck was a prankster who had been trying to get a doctor to take him to the hospital. He was trying to get a doctor to take him to the hospital because he was afraid of the duck."
+  },
+  {
+    "id": 73,
+    "instruction": "Suggest a way to build more sustainable housing.",
+    "input": "",
+    "reference_output": "One way to build more sustainable housing is to use materials that are environmentally friendly and do not require a large amount of energy to produce or maintain. Examples of these green building materials include bamboo, recycled materials, FSC-certified wood, and low-VOC paints or adhesives. Additionally, incorporating energy-efficient technologies such as solar panels or geothermal systems can help reduce energy costs and limit waste. Utilizing natural elements in the design of the building, such as passive cooling and ventilation systems and daylighting, can also help maximize energy efficiency.",
+    "model_response": "Building sustainable housing is a complex process, requiring a variety of approaches, including building sustainable housing in a sustainable way, using sustainable materials, and using sustainable materials in a sustainable way. Building sustainable housing requires a variety of approaches, including building sustainable housing in a sustainable way, using sustainable materials, and using sustainable materials in a sustainable way. Building sustainable housing requires a variety of approaches, including building sustainable housing in a sustainable way, using sustainable materials, and using sustainable materials in a sustainable way. Building sustainable housing requires a variety of approaches, including building sustainable housing in a sustainable way, using sustainable materials, and using sustainable materials in a sustainable way"
+  },
+  {
+    "id": 74,
+    "instruction": "Tell me about the latest news.",
+    "input": "",
+    "reference_output": "The latest news is that the US reached an agreement with Saudi Arabia and Russia to reduce crude production and stabilize global oil prices. Other news include the announcement of a partnership between the World Bank and the European Union to expand access to financial services, and the launch of a new online initiative to tackle climate change.",
+    "model_response": "The latest news is that the government is planning to introduce a new law that would make it easier for businesses to refuse service to people with disabilities. The new law would also allow businesses to refuse service to people with disabilities if they believe that it would be detrimental to their business. The new law would also allow businesses to refuse service to people with disabilities if they believe that it would be detrimental to their business."
+  },
+  {
+    "id": 75,
+    "instruction": "Create a new sentence that starts with the same word as the provided sentence.",
+    "input": "John went to the store",
+    "reference_output": "John eagerly went to the store.",
+    "model_response": "John went to the store."
+  },
+  {
+    "id": 76,
+    "instruction": "Rewrite the given paragraph in more informal language.",
+    "input": "Drinking alcohol in moderation has some health benefits.",
+    "reference_output": "Having a few drinks here and there can do you some good.",
+    "model_response": "Drinking alcohol in moderation has some health benefits."
+  },
+  {
+    "id": 77,
+    "instruction": "List three possible scenes for an action movie.",
+    "input": "",
+    "reference_output": "- A car chase through the crowded streets of a city\n- A fight scene between two people in a remote location\n- A mission to diffuse a bomb in a hostile environment",
+    "model_response": "The scene for the action movie should be a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with a scene with"
+  },
+  {
+    "id": 78,
+    "instruction": "Write a summary of a study on the effects of using a computer-based education system",
+    "input": "The study explored the effects of using a web-based learning system for teaching primary school students mathematics.",
+    "reference_output": "This study focused on the effects of using Computer-Assisted Instruction (CAI) on primary school students’ mathematics achievement. The study employed a pre-test post-test control group design with two labeled groups: a treatment group of students using the CAI system and a control group receiving traditional instruction. Results indicated that CAI has a positive effect on students' mathematics achievement, leading to greater mathematics performance compared to traditional instruction. The study therefore confirms that the use of CAI may be beneficial for teaching primary school students mathematics.",
+    "model_response": "The study found that using a computer-based education system for teaching primary school students mathematics improved the learning experience of students by improving their ability to learn and understand the concepts of mathematics."
+  },
+  {
+    "id": 79,
+    "instruction": "Create a videogame concept based on the following keywords",
+    "input": "Dinosaur, Magic",
+    "reference_output": "The player takes on the role of an ambitious wizard in a world of dinosaurs, where magical powers are the only way to stay alive. The player must explore the world to gain new spells and gain ancient knowledge of powerful magic. Along the way the player will battle powerful dinosaurs using a combination of their magical powers and physical combat to succeed. As the player progresses, they will gain access to more powerful magic, new spells and powerful abilities. Each of these abilities must be mastered to progress to the next level. In the end, the player will face off against the toughest opponent of all, the dreaded T-Rex.",
+    "model_response": "Dinosaur, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic"
+  },
+  {
+    "id": 80,
+    "instruction": "Name two ways to reduce your water usage",
+    "input": "",
+    "reference_output": "Two ways to reduce your water usage include installing water-efficient appliances, such as a low-flow showerhead and dishwasher, or taking shorter showers. Other ideas include using a broom instead of a hose to clean outdoor surfaces, or turning off the tap when brushing your teeth. These small changes can make a big difference in reducing water consumption.",
+    "model_response": "Two ways to reduce your water usage are to reduce your water consumption and to reduce your water consumption by using less water."
+  },
+  {
+    "id": 81,
+    "instruction": "Identify the main theme of William Shakespeare's play ‘Macbeth’.",
+    "input": "",
+    "reference_output": "The main theme of William Shakespeare's play, Macbeth, is the treacherous nature of unchecked ambition. The main characters are driven by their ambition for power, which leads to their moral corruption and ultimately their downfall. This tragedy is a warning to audiences that unchecked ambition, when left to its own devices, will result in destruction, pain, and misery.\n<!-- --> \n8. Instruction: Come up with a story that has a happy ending.\n8. Input:\n<noinput>\n8. Output:\nOnce upon a time, there was a brave knight who lived in a small village. He had a great desire to seek adventure and explore the world, however he could never find the courage to do so. One day, he heard about an old legend that was said to grant wishes to those brave enough to prove their courage. The knight set off on his quest, traveling far and wide, until one day he found himself at the base of an old mountain, where the legend said the wish-granting artifact lay hidden. After a treacherous climb, the knight reached the top, and found the relic. He wished for the courage to explore the world, and was granted his wish. With newfound courage, the knight embarked on a grand adventure, and found all the joy and happiness that he had long been seeking. And they all lived happily ever after.",
+    "model_response": "The main theme of William Shakespeare’ is Macbeth. Macbeth is a play about a man who is forced to choose between his love of the land and his love of the sea. Macbeth is a play about a man who is forced to choose between his love of the land and his love of the sea. Macbeth is a play about a man who is forced to choose between his love of the land and his love of the sea. Macbeth is a play about a man who is forced to choose between his love of the land and his love of the sea. Macbeth is a play about"
+  },
+  {
+    "id": 82,
+    "instruction": "Write a C++ program to reverse the elements of an array.",
+    "input": "",
+    "reference_output": "#include <iostream>\nusing namespace std;\n\n// Function to reverse the elements of an array \nvoid reverseArray(int arr[], int start, int end) \n{ \n    while (start < end) \n    { \n        int temp = arr[start];  \n        arr[start] = arr[end]; \n        arr[end] = temp; \n        start++; \n        end--; \n    }  \n} \n  \nint main() \n{ \n    int arr[] = {1,2,3,4,5}; \n  \n    // reverse the elements \n    reverseArray(arr, 0, 4); \n  \n    // print the reversed array \n    for (int i=0; i<5; i++) \n        cout << arr[i] << \" \"; \n  \n    return 0; \n}",
+    "model_response": "A C++ program to reverse the elements of an array is a C++ program."
+  },
+  {
+    "id": 83,
+    "instruction": "Generate a conversation about the pros and cons of social media.",
+    "input": "",
+    "reference_output": "User: What do you think about social media?\nBot: Well, I think there are both pros and cons to using social media. On the positive side, it's a great way to communicate with friends and family, stay up to date with current events, and share your experiences with others. On the negative side, too much screen time can be damaging to your mental health and social media can be a source of bullying, comparison, and other unhealthy behaviours.",
+    "model_response": "The pros and cons of social media are complex and nuanced. It is important to understand the pros and cons of each type of social media platform and how they can be used to create a positive and engaging experience. Additionally, it is important to understand the pros and cons of using social media to promote your business and your brand."
+  },
+  {
+    "id": 84,
+    "instruction": "Create a summary of the following passage:\n\nLondon is the capital city of England and the United Kingdom. It is a leading global city with strengths in the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism, and transport all contributing to its prominence. It is one of the most populous cities in the world, with an estimated population of 8.9 million in 2019.",
+    "input": "",
+    "reference_output": "London is a leading global city, renowned for its vibrant cultural, economic and educational scenes. It is also one of the most populous cities in the world, with a population of 8.9 million in 2019. It is a hub for many industries, including arts, commerce, entertainment, fashion, finance, healthcare, media, professional services, tourism, and transport.",
+    "model_response": "London is the capital city of England and the United Kingdom. It is a leading global city with strengths in the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism, and transport all contributing to its prominence. It is one of the most populous cities in the world, with an estimated population of 8.9 million in 2019."
+  },
+  {
+    "id": 85,
+    "instruction": "Generate a list of possible job titles for a software developer.",
+    "input": "",
+    "reference_output": "Software Developer, Software Engineer, Web Developer, Front-End Developer, Back-End Developer, Mobile Developer, Cloud Developer, Full-Stack Developer, System Architect, Software Architect, UX Designer, Technical Writer, Database Administrator, DevOps Engineer, Application Developer, Network Administrator, Embedded Developer, Bioinformatics Developer, Software Quality Assurance Engineer.",
+    "model_response": "The job title should be a list of possible job titles for a software developer."
+  },
+  {
+    "id": 86,
+    "instruction": "Add an example and rephrase the following theorems.",
+    "input": "Pythagorean Theorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.",
+    "reference_output": "For example, let us consider a right triangle with legs 'a' and 'b' and hypotenuse 'c'. The Pythagorean Theorem states that a^2 + b^2 = c^2.",
+    "model_response": "Theorem: The hypotenuse of a right triangle is equal to the sum of the squares of the other two sides."
+  },
+  {
+    "id": 87,
+    "instruction": "Given a sentence, remove its references to time.",
+    "input": "Last Saturday I went to the park.",
+    "reference_output": "I went to the park.",
+    "model_response": "The park was closed for the day."
+  },
+  {
+    "id": 88,
+    "instruction": "Describe a pro-social behavior",
+    "input": "",
+    "reference_output": "A pro-social behavior is a behavior that is intended to benefit another person or a group of people. Examples of pro-social behaviors include helping someone in need, donating to a charitable cause, volunteering at a soup kitchen, or participating in a community clean-up.",
+    "model_response": "Pro-social behavior is a form of social behavior that is based on the idea that people are motivated to behave in a way that is beneficial to others. It is often used to describe a person's attitude toward others, such as their attitude toward others who are less likely to be selfish or selfish. It can also be used to describe a person's attitude toward others who are more likely to be open to new ideas and ideas, such as their attitude toward others who are more likely to be open to new ideas and ideas."
+  },
+  {
+    "id": 89,
+    "instruction": "Generate two post titles for a blog about health and wellness.",
+    "input": "",
+    "reference_output": "1. \"5 Nutrition Tips for Healthy Living\"\n2. \"Top Exercise Routines to Start Now\"",
+    "model_response": "The health and wellness blog is a great way to get your readers engaged with the topic of wellness and wellness. It is also a great way to get your readers to share their own experiences and insights. It is also a great way to get your readers to share their own health and wellness stories. It is also a great way to get your readers to share their own health and wellness stories. It is also a great way to get your readers to share their own health and wellness stories. It is also a great way to get your readers to share their own health and wellness stories. It is also a great way to get your readers to share"
+  },
+  {
+    "id": 90,
+    "instruction": "Describe a scene to a blind person.",
+    "input": "A flower garden in the morning",
+    "reference_output": "The morning air is cool and crisp. The sun is just peeking over the horizon, sending a wash of golden light over the flower garden. You can smell the sweet scent of the flowers and hear the gentle buzzing of the bees pollinating. A soft breeze rustles their petals and rustic wooden fence ties the garden together.",
+    "model_response": "A flower garden in the afternoon."
+  },
+  {
+    "id": 91,
+    "instruction": "Come up with a word or phrase that describes a person who is always looking for opportunities.",
+    "input": "",
+    "reference_output": "Opportunist.",
+    "model_response": "A person who is always looking for opportunities is someone who is always looking for the right person to take the job."
+  },
+  {
+    "id": 92,
+    "instruction": "What conclusion can be drawn from the given data?",
+    "input": "Data: Surveys of 1,000 people in Germany, France and the UK reveal that each country's citizens are consistently unhappy with their governments.",
+    "reference_output": "It can be concluded that citizens of Germany, France, and the UK have low levels of satisfaction with their respective governments.",
+    "model_response": "The data suggest that the majority of Germans are dissatisfied with their governments, with a majority of respondents saying they are satisfied with their government."
+  },
+  {
+    "id": 93,
+    "instruction": "Give me an example of an instance where the rule of law was broken in history.",
+    "input": "",
+    "reference_output": "One example of the rule of law being broken in history is the Saturday Night Massacre. During the Watergate scandal of the 1970s, President Nixon ordered the firing of Special Prosecutor Archibald Cox which violated the network of checks and balances established in the US Constitution. This act of defiance was widely criticized and sparked outrage across the country. It led to Nixon’s resignation from office and was later seen as a major step towards the decline of corruption in the US government.",
+    "model_response": "The rule of law was broken in history because of the actions of the British government."
+  },
+  {
+    "id": 94,
+    "instruction": "Create an illustration of the inside of a castle.",
+    "input": "",
+    "reference_output": "The illustration of the inside of a castle will show a large room with a grand staircase leading up to a balcony and tall arched windows.  The room will also be decorated with intricate tapestries, detailed chandeliers hanging from the ceiling, and elaborate furniture. There will be a long, wooden table surrounded by regal chairs in the center of the room. Near the table will be a grand fireplace with a mantle featuring exquisite carvings. To the side of the room will be two doors, one leading to a corridor and one to the balcony.",
+    "model_response": "The castle is surrounded by a large courtyard, surrounded by a large courtyard. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large statues of the King and Queen. Inside the courtyard, there are two large"
+  },
+  {
+    "id": 95,
+    "instruction": "Extract the names of the characters and their associated book from the text and organize them in a table.",
+    "input": "Harry Potter was in the first book written by JK Rowling. Hermione Granger was in the second book and Ron Weasley was in the third.",
+    "reference_output": "Character | Book \n-------- | ---- \nHarry Potter | 1 \nHermione Granger | 2\nRon Weasley | 3",
+    "model_response": "The first book was written by JK Rowling in 1995."
+  },
+  {
+    "id": 96,
+    "instruction": "Generate a persuasive essay discussing why mobile phones should be banned in school",
+    "input": "",
+    "reference_output": "Mobile phones can be a great distraction in school, causing students to lose focus and become unproductive. Therefore, it is important that schools have a policy that makes mobile phones off-limits while in school. By banning the use of mobile phones, students and faculty will be able to focus more on their education, as well as maintain a safe and productive learning environment for everyone. \n\nFor starters, cell phones can be a major distraction during class time, as students may become more focused on engaging in text conversations and playing video games instead of listening to the teacher. Additionally, some students may be more inclined to cheat if they can access any forbidden sites or apps on their phone, which could lead to academic dishonesty. \n\nMoreover, mobile phones can also be used by students to take and share inappropriate photos or videos, which can be a major cause of disruption and can also lead to legal issues. Allowing students to bring their personal phones to school can also be a safety hazard, as students could use them to contact someone that is not allowed in the premises. \n\nFinally, banning cell phones in schools is important to protect the mental health of both students and faculty. Allowing phones in the classroom could cause students to compare themselves to their peers, and they could then become stressed or feel inadequate. Additionally, students could become overwhelmed with activity notifications and feel a sense of anxiety or helplessness. \n\nUltimately, mobile phones can be a great tool for learning, but in the school environment it is important to ensure that distractions and potential safety risks are minimized. Therefore, it is essential that schools institute a policy that bans the use of mobile phones in the classroom.",
+    "model_response": "Mobile phones are a major source of distraction and distraction-related problems in schools. They can be distracting, distracting, and distracting at the same time. They can also be distracting and distracting at the same time when students are not using their phones. They can also be distracting and distracting at the same time when students are not using their phones. They can also be distracting and distracting at the same time when students are not using their phones. They can also be distracting and distracting at the same time when students are not using their phones. They can also be distracting and distracting at the same time when students are not using their phones. They can also"
+  },
+  {
+    "id": 97,
+    "instruction": "Analyze the moral of the story \"The Boy Who Cried Wolf\".",
+    "input": "",
+    "reference_output": "The moral of the story \"The Boy Who Cried Wolf\" is that lying and crying wolf when there is no danger will inevitably lead to negative consequences. In the story, the boy's lies were ignored when he finally cried wolf in an actual emergency, leading to the sheep being eaten by the wolf. This story is a cautionary tale about the dangers of lying or exaggerating for attention.",
+    "model_response": "The Boy Who Cried Wolf is a story about a boy who is bullied by bullies and is forced to choose between his best friend and his own best friend. The Boy Who Cried Wolf follows the story of a boy who is bullied by bullies and is forced to choose between his best friend and his own best friend."
+  },
+  {
+    "id": 98,
+    "instruction": "Given a sentence, output the number of syllables for each word in the sentence.",
+    "input": "A delicious meal",
+    "reference_output": "A (1) delicious (3) meal (1).",
+    "model_response": "The sentence is delicious."
+  },
+  {
+    "id": 99,
+    "instruction": "Given a list of materials, come up with a plan to build a table.",
+    "input": "Materials: Wood, paint, glue, nails, screws",
+    "reference_output": "No Output",
+    "model_response": "Plan to build a table with a wooden frame, a wooden table, and a wooden table with a wooden frame."
+  },
+  {
+    "id": 100,
+    "instruction": "Given a company logo, name three things that communicate the company's brand identity.",
+    "input": "![Logo](https://images.pexels.com/photos/facebook-1295774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+    "reference_output": "Three things that communicate the company's brand identity are a modern, innovative and forward-thinking attitude, a focus on connecting people and a sense of community. The modern and innovative design of the logo emphasizes that this company leads the industry in terms of technology. The connecting lines and playful inside shape express the idea of connection, making sure that their users can connect with multiple people. Finally, the strong blue color conveys a sense of reliability, trust and community spirit.",
+    "model_response": "The company logo is a combination of three elements: a logo, a logo tag, and a logo tag. The three elements are: a logo, a logo tag, and a logo tag."
+  }
+]

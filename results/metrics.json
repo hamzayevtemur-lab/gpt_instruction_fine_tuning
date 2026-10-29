@@ -1,0 +1,8 @@
+{
+  "num_samples": 100,
+  "baseline_mean_score": 32.75,
+  "finetuned_mean_score": 62.3,
+  "score_improvement": 29.55,
+  "baseline_repetition_rate": "68.0%",
+  "finetuned_repetition_rate": "18.0%"
+}

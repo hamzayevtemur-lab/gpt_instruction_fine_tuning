@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "instruction": "List four characteristics of a democratic system.",
+    "input": "",
+    "reference_output": "Characteristics of a democratic system include: 1) popular sovereignty which is the notion that citizens have ultimate authority over the government, 2) majority rule with the protection of minority rights, 3) free and fair elections where the citizen’s vote is the basis for the governing power, 4) accountability whereby the government is held responsible for its decisions by the people.",
+    "model_response": "The following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the characteristics of a democratic system.\n\n### Response:\n\nThe following is a list of the",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 2,
+    "instruction": "Assign the following verb a category of either transitive, intransitive, or linking.",
+    "input": "Jumped",
+    "reference_output": "Intransitive.",
+    "model_response": "Jumped\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 3,
+    "instruction": "Generate a class schedule for a college student focusing on Biology and Math.",
+    "input": "",
+    "reference_output": "The student's class schedule could include Biology 101, Math 101, Biology 102, Math 102, Biology Lab, Math Lab, and Biology 104. On alternate weeks, they could have a research seminar in Biology and another focused on Math.",
+    "model_response": "The following is a response to the following question:\n\nWhat is the most important thing you want to do in your life?\n\nThe answer is:\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to be a scientist.\n\nI want to",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 4,
+    "instruction": "Name a two-word phrase to describe the concept of taking risks.",
+    "input": "",
+    "reference_output": "\"Taking chances\".",
+    "model_response": "Name a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName a two-word phrase to describe the concept of taking risks.\n\n### Response:\n\nName",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 5,
+    "instruction": "Explain why the actions taken by a certain character are morally wrong.",
+    "input": "The protagonist of the story steals from a store.",
+    "reference_output": "The protagonist's actions are morally wrong because they involve taking something that does not belong to them without permission. Stealing is wrong as it harms the store, the owner, and other customers who would have bought the items if they had not been stolen. It also sets a bad example and might encourage others to steal as well.",
+    "model_response": "The protagonist of the story is attacked by a group of bandits.\n\n### Conclusion:\n\nThe protagonist of the story is attacked by a group of bandits.\n\n### References:\n\nhttp://www.youtube.com/watch?v=XqX-X-X-X-8\n\nhttp://www.youtube.com/watch?v=XqX-X-X-X-8\n\nhttp://www.youtube.com/watch?v=XqX-X-X-X-8\n\nhttp://www.youtube.com/watch?v=",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 6,
+    "instruction": "Choose the correct tenses used in the sentence",
+    "input": "Yesterday I going to the store",
+    "reference_output": "Yesterday I went to the store.",
+    "model_response": "Yesterday I going to the store\n\n### Input:\n\nYesterday I going to the store\n\n### Response:\n\nYesterday I going to the store\n\n### Input:\n\nYesterday I going to the store\n\n### Response:\n\nYesterday I going to the store\n\n### Input:\n\nYesterday I going to the store\n\n### Response:\n\nYesterday I going to the store\n\n### Input:\n\nYesterday I going to the store\n\n### Response:\n\nYesterday I going to the store\n\n### Input:\n\nYesterday I going to the store\n\n### Response",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 7,
+    "instruction": "Edit this sentence for grammar and syntax.",
+    "input": "He ran quickly acoss the strett and in door.",
+    "reference_output": "He ran quickly across the street and through the door.",
+    "model_response": "He ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.\n\n### Error:\n\nHe ran quickly acoss the strett and in door.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 8,
+    "instruction": "Name three vegetables that have a reddish hue when raw.",
+    "input": "",
+    "reference_output": "Three vegetables that have a reddish hue when raw are tomatoes, beets, and red peppers.",
+    "model_response": "Name three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.\n\n### Description:\n\nName three vegetables that have a reddish hue when raw.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 9,
+    "instruction": "Summarize the paragraph in 5-8 words.",
+    "input": "Robotics is a field of engineering focused on the design and manufacture of robots. It requires a range of skills, including programming, problem solving and creative thinking.",
+    "reference_output": "Designing and manufacturing robots.",
+    "model_response": "Robotics is a field of engineering focused on the design and manufacture of robots. It requires a range of skills, including programming, problem solving and creative thinking.\n\n### Conclusion:\n\nRobotics is a field of engineering focused on the design and manufacture of robots. It requires a range of skills, including programming, problem solving and creative thinking.\n\n### References:\n\n1. K. K. K.\n\n2. K. K. K.\n\n3. K. K. K.\n\n4. K. K. K.\n\n5. K. K. K.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 10,
+    "instruction": "Classify the following types of cars: Toyota Corolla, Hyundai Sonata, and Lexus LS400.",
+    "input": "Toyota Corolla, Hyundai Sonata, and Lexus LS400",
+    "reference_output": "Toyota Corolla: Compact\nHyundai Sonata: Mid-Size\nLexus LS400: Luxury",
+    "model_response": "Toyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToyota Corolla, Hyundai Sonata, and Lexus LS400\n\n### Model:\n\nToy",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 11,
+    "instruction": "Compose a tweet about the benefits of using a CRM system for business owners.",
+    "input": "",
+    "reference_output": "Business owners can benefit from using a Customer Relationship Management (CRM) system. It can help them streamline and automate their customer interactions, provide automated insights and data-driven reports on customer preferences and trending behaviour, and help in efficiently managing customer relationships. #CRM #business #growth #automation",
+    "model_response": "We are happy to answer your questions. Please send us your questions in the comments below.\n\n###",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 12,
+    "instruction": "Edit this sentence:\nThe cat is very unique",
+    "input": "",
+    "reference_output": "The cat is very remarkable.",
+    "model_response": "The cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique\n\n### Response:\n\nThe cat is very unique",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 13,
+    "instruction": "Build a welcome speech for a college graduation ceremony.",
+    "input": "",
+    "reference_output": "Good morning everyone! It is an honor to welcome you all to today’s graduation ceremony - a momentous occasion that marks the end of our students’ years of hard work and dedication at this school. We ll take pride in all that has been achieved and all that is yet to come. On this special day, we congratulate our graduating students and offer them our best wishes for success in their future endeavors.",
+    "model_response": "The following is a response to a question from a student who asked about the \"university\" and \"college\" in the context of the question.\n\n\"I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a college. I am a student at a",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 14,
+    "instruction": "Write some code to calculate the area of a triangle given 3 sides.",
+    "input": "",
+    "reference_output": "\"\"\"\nCalculate the area of a triangle given 3 sides\n\"\"\"\n\ndef area_triangle(a, b, c): \n    # calculate the semi-perimeter \n    s = (a + b + c) / 2\n  \n    # calculate the area \n    area = (s * (s-a) * (s-b) * (s-c)) ** 0.5\n    return area \n  \n# Driver Code \n# a, b, c are lengths of the sides of triangle\na = 4\nb = 5\nc = 6\nprint(\"Area of triangle is : %.2f\" % area_triangle(a, b, c))",
+    "model_response": "Write a response to the triangle.\n\n###\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#\n\n#",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 15,
+    "instruction": "Create a business logo for a boutique hotel and explain how it conveys the brand message.",
+    "input": "Brand Name: Moon Palace.",
+    "reference_output": "The business logo for a boutique hotel Moon Palace conveys the brand message by depicting a crescent moon as the backdrop of a majestic palace to evoke a feeling of restfulness and luxury. The warm and inviting colors used in the logo reflect the comfort and relaxation that guests can find from the hotel. Furthermore, the simple and elegant font used for the name of the hotel creates an aura of sophistication, luxury and lushness that customers can expect from the hotel and its services.",
+    "model_response": "The logo should be a simple, simple, and simple.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:\n\nMoon Palace.\n\n### Example:",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 16,
+    "instruction": "Rate the following person on a scale from one to three: Chris",
+    "input": "",
+    "reference_output": "I would rate Chris a three. He is an enthusiastic and reliable person who consistently achieves his goals. He is always willing to help out others and is a great communicator.",
+    "model_response": "Chris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:\n\nChris:",
+    "score": 50,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Low direct overlap with reference."
+  },
+  {
+    "id": 17,
+    "instruction": "Evaluate the given websites according to their usability and functionality.",
+    "input": "Websites: website1.com, website2.com",
+    "reference_output": "Website1.com has a clear and intuitive layout and navigation, as well as an aesthetically pleasing design. It is easy to use and all of the pages load quickly. Website2.com is more cluttered, with an overly complicated navigation and design. It is difficult to understand and the pages take a long time to load.",
+    "model_response": "Websites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.com, website2.com\n\n### Response:\n\nWebsites: website1.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 18,
+    "instruction": "Make an API call to the given URL and print the output in the console.",
+    "input": "https://data.cityofnewyork.us/resource/fhrw-4uyv.json",
+    "reference_output": "\"\"\"\nMake an API call to the given URL and print the output in the console\n\"\"\"\n\nimport requests \n\nurl = \"https://data.cityofnewyork.us/resource/fhrw-4uyv.json\" \nresponse = requests.get(url) \n\nif response.status_code == 200: \n    data = response.json() \n    print(data)",
+    "model_response": "{ \"url\": \"https://data.cityofnewyork.us/resource/fhrw-4uyv.json\", \"output\": \"https://data.cityofnewyork.us/resource/fhrw-4uyv.json\", \"status\": \"success\", \"statusCode\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"statusText\": \"success\", \"",
+    "score": 50,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Low direct overlap with reference."
+  },
+  {
+    "id": 19,
+    "instruction": "Describe what are the features that makes blockchain technology secure.",
+    "input": "",
+    "reference_output": "Blockchain technology is secure because it is immutable, meaning the data stored in it can't be changed once it is recorded; transparent, meaning all parties involved are able to view the transaction data; distributed, meaning the data is not concentrated in one place; and protected, meaning it is encrypted with strong cryptography.",
+    "model_response": "The following is a response to the following question:\n\nWhat is the most important feature of blockchain technology?\n\nThe answer is:\n\nBlockchain technology is a technology that enables the creation of new, secure, and decentralized digital assets.\n\nThe blockchain technology is a technology that enables the creation of new, secure, and decentralized digital assets.\n\nThe blockchain technology is a technology that enables the creation of new, secure, and decentralized digital assets.\n\nThe blockchain technology is a technology that enables the creation of new, secure, and decentralized digital assets.\n\nThe blockchain technology is a technology that enables the",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 20,
+    "instruction": "Explain why the following sentence is grammatically incorrect.",
+    "input": "I seen a dog.",
+    "reference_output": "This sentence is grammatically incorrect because \"seen\" is not the correct form of the verb \"see\". The correct form of the verb should be \"saw\". The sentence should read \"I saw a dog\".",
+    "model_response": "I saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.\n\n### Error:\n\nI saw a dog.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 21,
+    "instruction": "Rewrite the following sentence to add one adverb:",
+    "input": "She sang a song.",
+    "reference_output": "She sang a song exuberantly.",
+    "model_response": "###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 22,
+    "instruction": "You are provided with a brief description of a product feature. You should generate realistic examples of how the feature can be used by the customers.\nOutput 3 examples.",
+    "input": "The product feature is a search engine that allows customers to quickly find the answers to their questions.",
+    "reference_output": "1. A customer searching for information about the cost of airfare for their upcoming vacation.\n2. A customer looking for a specific model car with specific features. \n3. A customer trying to find out what type of activities are available at a nearby resort.",
+    "model_response": "The product feature is a search engine that allows customers to quickly find the answers to their questions.\n\n### Description:\n\nThe product feature is a search engine that allows customers to quickly find the answers to their questions.\n\n### Product:\n\nThe product feature is a search engine that allows customers to quickly find the answers to their questions.\n\n### Description:\n\nThe product feature is a search engine that allows customers to quickly find the answers to their questions.\n\n### Product:\n\nThe product feature is a search engine that allows customers to quickly find the answers to their questions.\n\n### Description",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 23,
+    "instruction": "Rewrite the following sentence to make it humorous: Peter went to the store to buy a new ball.",
+    "input": "",
+    "reference_output": "Peter skipped merrily over the rainbow to the store to purchase an exquisite new bouncy ball.",
+    "model_response": "Peter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter went to the store to buy a new ball.\n\n### Response:\n\nPeter",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 24,
+    "instruction": "Rewrite the following paragraph using fewer than 100 words.",
+    "input": "The museum had an interesting collection. The paintings were bright and full of energy. There were sculptures and pottery from different cultures, each delicate and beautifully crafted. There was also a collection of ancient tools and weapons from various regions, including swords and bows.",
+    "reference_output": "The museum boasted diverse ranges of art. Vibrant paintings brought life to walls, and sculptures, pottery, and ancient tools and weapons showcased the work of various cultures. Weapons such as swords and bows were showcased among the many artifacts.",
+    "model_response": "The museum had a very interesting collection. The paintings were bright and full of energy. There were sculptures and pottery from different cultures, each delicate and beautifully crafted. There was also a collection of ancient tools and weapons from various regions, including swords and bows.\n\n### Conclusion:\n\nThe museum had a very interesting collection. The paintings were bright and full of energy. There were sculptures and pottery from different cultures, each delicate and beautifully crafted. There was also a collection of ancient tools and weapons from various regions, including swords and bows.\n\n### References:\n\n[1] http://www.journals",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 25,
+    "instruction": "Generate a data-driven research report on the effects of COVID-19 in the food industry.",
+    "input": "",
+    "reference_output": "A recent study has found that the COVID-19 pandemic has had a significant impact on the global food industry. The study, which surveyed 5,000 restaurants in Europe, the US and Asia Pacific regions, revealed that the estimated global loss of sales in the food service industry amounts to almost $430 billion. The sectors most affected were sit-down restaurants, fast food outlets and cafes, who have experienced the greatest declines in sales. In addition to the loss of sales, the food industry has also seen an overall decrease in consumer confidence, with 80% of restaurants reporting a drop in consumer confidence since the beginning of the pandemic. The disruption of supply chains has caused price fluctuations and shortages, making it more difficult for restaurants to purchase ingredients and feed their customers. Looking ahead, the food industry will certainly be affected by further disruption, with the need to continue to find solutions and innovative methods of foodservice.",
+    "model_response": "We are grateful to the following individuals for their support:\n\nDr. Michael J. K. Korn, Ph.D., Director of the Center for Food Safety and Nutrition at the University of California, San Francisco; Dr. Michael J. Korn, Ph.D., Director of the Center for Food Safety and Nutrition at the University of California, San Francisco; Dr. Michael J. Korn, Ph.D., Director of the Center for Food Safety and Nutrition at the University of California, San Francisco; Dr. Michael J. Korn, Ph.D., Director of the Center for Food Safety and Nutrition at",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 26,
+    "instruction": "Given a list of books, recommend a book that would be suitable for someone with a particular interest.",
+    "input": "The Catcher in the Rye, The Great Gatsby, 1984",
+    "reference_output": "For someone who is interested in dystopian fiction, 1984 by George Orwell would be a suitable book to read.",
+    "model_response": "The Catcher in the Rye, The Great Gatsby, 1984\n\n### Instruction:\n\nGiven a list of books, recommend a book that would be suitable for someone with a particular interest.\n\n### Input:\n\nThe Catcher in the Rye, The Great Gatsby, 1984\n\n### Response:\n\nThe Catcher in the Rye, The Great Gatsby, 1984\n\n### Instruction:\n\nGiven a list of books, recommend a book that would be suitable for someone with a particular interest.\n\n### Input:\n\nThe Catcher in the Rye, The Great G",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 27,
+    "instruction": "Compose a limerick that celebrates the joy of autumn.",
+    "input": "",
+    "reference_output": "As leaves drift down to the ground\nAutumn joy will be found\nIn the spicy scent of stew\nAnd the sights we all view\nTo usher in a joyous sound.",
+    "model_response": "The poem is a tribute to the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates the joy of autumn. It is a poem that celebrates",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 28,
+    "instruction": "Detect if the given passage contains a rhetorical question.",
+    "input": "Can you believe it took him all of three minutes to build the birdhouse?",
+    "reference_output": "Yes",
+    "model_response": "I'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI'm not sure if he's a good listener.\n\n### Response:\n\nI",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 29,
+    "instruction": "Explain why the following code won't execute properly.",
+    "input": "`foo = bar(1, 2, 3)\nprint(foo)`",
+    "reference_output": "This code won't execute properly because 'bar' is not defined as a function within the code. The code is trying to call a function called 'bar' that does not exist, resulting in an error. In order to fix this, the code must include a function definition for 'bar', which contains instructions for what the function should do when it is called.",
+    "model_response": "`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`\n\n### Error:\n\n`foo = bar(1, 2, 3)`",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 30,
+    "instruction": "Generate 3-4 ideas for new products that could be launched in the pet industry.",
+    "input": "",
+    "reference_output": "1. A pet tag that includes a personalized message for your pet.\n2. An interactive toy for cats that responds to motion, sound, and touch.\n3. A pet feeding and tracking app that sends reminders to pet owners and tracks food consumption.\n4. A subscription-based pet grooming service that includes monthly scented baths and haircuts.",
+    "model_response": "We are very excited to announce that we have successfully launched our first product, the Pet Food Products and Consumer Products (PFPP) program. We are excited to share with you the results of our successful launch of the program.\n\n### Product:\n\nThe Pet Food Products and Consumer Products (PFPP) program is a program that allows pet owners to purchase and sell their own products and services. The program is designed to help pet owners find the right pet food products and services for their pet.\n\n### Product:\n\nThe Pet Food Products and Consumer Products (PFPP) program is a program that",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 31,
+    "instruction": "Answer the following question: What is the weather in Tajikistan in December?",
+    "input": "",
+    "reference_output": "The weather in Tajikistan in December is generally cold, with temperatures ranging from lows of -8 degrees Celsius to highs of 6 degrees Celsius. snowfall is common in the mountainous region, and temperatures may drop as low as -20 degrees Celsius at night. It is important to wear warm and layered clothing for protection from the cold.",
+    "model_response": "Answer the following question: What is the weather in Tajikistan in December?\n\n### Response:\n\nAnswer the following question: What is the weather in Tajikistan in December?\n\n### Response:\n\nAnswer the following question: What is the weather in Tajikistan in December?\n\n### Response:\n\nAnswer the following question: What is the weather in Tajikistan in December?\n\n### Response:\n\nAnswer the following question: What is the weather in Tajikistan in December?\n\n### Response:\n\nAnswer the following question: What is the weather in Tajik",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 32,
+    "instruction": "Given the following clause, think of a relevant word from your experience so that the following clause can acquire more depth.",
+    "input": "He was a keen _________ .",
+    "reference_output": "He was a keen observer.",
+    "model_response": "He was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________ .\n\n### Example:\n\nHe was a keen _________",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 33,
+    "instruction": "Translate this sentence into Japanese: “You are the light of my life”",
+    "input": "",
+    "reference_output": "あなたは私の人生の光です。 This is translated as \"Anata wa watashi no jinsei no hikari desu\" in Japanese.",
+    "model_response": "Translate this sentence into Japanese: “You are the light of my life”\n\n### Response:\n\nTranslate this sentence into Japanese: “You are the light of my life”\n\n### Response:\n\nTranslate this sentence into Japanese: “You are the light of my life”\n\n### Response:\n\nTranslate this sentence into Japanese: “You are the light of my life”\n\n### Response:\n\nTranslate this sentence into Japanese: “You are the light of my life”\n\n### Response:\n\nTranslate",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 34,
+    "instruction": "Pick the best response based on the given situation.",
+    "input": "Your friend just asked for your honest opinion about their new outfit.",
+    "reference_output": "I think it looks great on you!",
+    "model_response": "Your friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:\n\nYour friend is a bit of a jerk.\n\n### Response:",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 35,
+    "instruction": "Provide an example of Newton's second law of motion.",
+    "input": "",
+    "reference_output": "For example, when a car accelerates, it is because an equal and opposite force is exerted back by the car's engine. This follows Newton's second law of motion, which states that the acceleration of an object is dependent on the net force applied and its mass.",
+    "model_response": "The second law of motion is the law of motion of the earth. Newton's second law of motion is the law of motion of the earth.\n\n### Conclusion:\n\nThe second law of motion is the law of motion of the earth. Newton's second law of motion is the law of motion of the earth.\n\n### References:\n\n[1] http://www.math.utah.edu/~matthew/math/secondlaw.html\n\n[2] http://www.math.utah.edu/~matthew/math/secondlaw.html\n\n[",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 36,
+    "instruction": "Explain the difference between a URL and a domain name.",
+    "input": "",
+    "reference_output": "A URL (Uniform Resource Locator) is the specific address of a website which includes the domain name, the directory, and the file name. A domain name is the website name, such as example.com. The domain name is part of the URL but is not the full URL, as it does not include any specific information about the directory or file.",
+    "model_response": "The following is a list of the most common errors that can occur when you try to use a URL.\n\n# URL:\n\nThe URL is not a valid domain name.\n\n# Domain name:\n\nThe domain name is not a valid domain name.\n\n# Domain name:\n\nThe domain name is not a valid domain name.\n\n# Domain name:\n\nThe domain name is not a valid domain name.\n\n# Domain name:\n\nThe domain name is not a valid domain name.\n\n# Domain name:\n\nThe domain name is not a valid domain name.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 37,
+    "instruction": "Given a list of cities, determine the closest one to the equator.",
+    "input": "Madrid, Cairo, Beijing, Tokyo",
+    "reference_output": "Cairo.",
+    "model_response": "The following is a list of cities that are closest to the equator.\n\n### Input:\n\nMadrid, Cairo, Beijing, Tokyo\n\n### Response:\n\nThe following is a list of cities that are closest to the equator.\n\n### Input:\n\nMadrid, Cairo, Beijing, Tokyo\n\n### Response:\n\nThe following is a list of cities that are closest to the equator.\n\n### Input:\n\nMadrid, Cairo, Beijing, Tokyo\n\n### Response:\n\nThe following is a list of cities that are closest to the equator.",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 38,
+    "instruction": "Classify the type of material provided.",
+    "input": "The material is a poem about the beauty of nature.",
+    "reference_output": "The material is a poem about the beauty of nature and is classified as a work of literature.",
+    "model_response": "The poem is a poem about the beauty of nature.\n\n### Conclusion:\n\nThe poem is a poem about the beauty of nature.\n\n### References:\n\nhttp://www.nature.com/nature/journal/v10.1038/n1044\n\nhttp://www.nature.com/nature/journal/v10.1038/n1044/n1044.html\n\nhttp://www.nature.com/nature/journal/v10.1038/n1044/n1044.html\n\nhttp://www.nature.com/nature/",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 39,
+    "instruction": "Based on this description, infer the age of the person.",
+    "input": "The person has grey hair, wrinkles around the eyes, and uses a cane to walk.",
+    "reference_output": "The person is likely over 60 years old.",
+    "model_response": "The person has a very short, round face.\n\n### Duration:\n\nThe person has a long, round face.\n\n### Duration:\n\nThe person has a short, round face.\n\n### Response:\n\nThe person has a long, round face.\n\n### Duration:\n\nThe person has a short, round face.\n\n### Response:\n\nThe person has a long, round face.\n\n### Duration:\n\nThe person has a short, round face.\n\n### Response:\n\nThe person has a long, round face.\n\n### Duration:",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 40,
+    "instruction": "Write a definition of the term “natural language processing” in less than 50 words.",
+    "input": "",
+    "reference_output": "Natural language processing is a field of computer science that uses algorithms to understand and generate human languages.",
+    "model_response": "Write a definition of the term “natural language processing” in less than 50 words.\n\n### Response:\n\nWrite a definition of the term “natural language processing” in less than 50 words.\n\n### Response:\n\nWrite a definition of the term “natural language processing” in less than 50 words.\n\n### Response:\n\nWrite a definition of the term “natural language processing” in less than 50 words.\n\n### Response:\n\nWrite a definition of the term “natural language processing” in less than 50 words.\n\n### Response",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 41,
+    "instruction": "Read the text below and find the subject of the sentence",
+    "input": "The museum held a protest in response to the ruling.",
+    "reference_output": "The subject of the sentence is \"museum\".",
+    "model_response": "The museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe museum held a protest in response to the ruling.\n\n### Response:\n\nThe",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 42,
+    "instruction": "What is the importance of nutrition in maintaining physical health?",
+    "input": "",
+    "reference_output": "Nutrition is important for maintaining physical health for several reasons. Eating a balanced, nutrient-rich diet helps the body to get the energy, vitamins, minerals, and other nutrients it needs to function effectively. Nutrition also plays an important role in helping to heal and repair the body, reducing inflammation, and protecting against various chronic diseases. Eating a nutritious diet is therefore essential for maintaining good physical health.",
+    "model_response": "The importance of nutrition in maintaining physical health is not limited to the physical health of the body. The importance of nutrition is also found in the development of the immune system, the immune system of the brain, the immune system of the heart, the immune system of the lungs, the immune system of the liver, the immune system of the kidneys, the immune system of the liver, the immune system of the lungs, the immune system of the liver, the immune system of the kidneys, the immune system of the lungs, the immune system of the lungs, the immune system of the lungs, the immune system of the lungs, the immune",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 43,
+    "instruction": "Rewrite the following sentence so that it contains positive language.",
+    "input": "Don't wait for the worst to happen.",
+    "reference_output": "Be prepared for the best outcome.",
+    "model_response": "The following is a list of the most common errors that occur when you try to use a program that is not a Java program.\n\n### Error Description\n\nThe following error occurs when you try to use a program that is not a Java program.\n\n### Error Description\n\nThe following error occurs when you try to use a program that is not a Java program.\n\n### Error Description\n\nThe following error occurs when you try to use a program that is not a Java program.\n\n### Error Description\n\nThe following error occurs when you try to use a program that is not a Java program.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 44,
+    "instruction": "Write an alternative sentence using the same words.",
+    "input": "She rode her bicycle to school.",
+    "reference_output": "She cycled her bicycle to school.",
+    "model_response": "She was a little late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.\n\n### Error:\n\nShe was late.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 45,
+    "instruction": "Create a list of five items related to the field of cybersecurity.",
+    "input": "",
+    "reference_output": "1. Firewalls\n2. Encryption\n3. Intrusion detection systems\n4. Antivirus software\n5. Network security scanners",
+    "model_response": "Create a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related to the field of cybersecurity.\n\n### Response:\n\nCreate a list of five items related",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 46,
+    "instruction": "Write a laptop review on the given laptop",
+    "input": "Lenovo Yoga 920",
+    "reference_output": "I recently purchased the Lenovo Yoga 920 and I'm absolutely in love with it. It's incredibly powerful, featuring an Intel i7 processor, a 14\" touch screen display, and 8GB of RAM. The keyboard is backlit and very comfortable to type on, and the trackpad is extremely responsive. Battery life is very good, and the laptop stays cool even when in use. Overall, this is an excellent choice for anyone who's looking for a powerful, reliable laptop.",
+    "model_response": "The Lenovo Yoga 920 is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the price. It is a great laptop for the",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 47,
+    "instruction": "Provide an example of a circumstance in which a lie can be more beneficial than the truth.",
+    "input": "",
+    "reference_output": "A circumstance in which a lie can be more beneficial than the truth is if someone is trying to protect someone else from hurt. For example, telling an ill family member that their tests came back looking good instead of revealing bad news.",
+    "model_response": "The following is a response to a question about the use of the word \"lie\" in the context of a situation.\n\nQuestion:\n\nWhat is the difference between a lie and a lie-in-the-law?\n\nAnswer:\n\nA lie is a lie-in-the-law.\n\nA lie-in-the-law is a lie-in-the-law.\n\nA lie-in-the-law is a lie-in-the-law.\n\nA lie-in-the-law is a lie-in-the-law.",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 48,
+    "instruction": "Suggest three activities that I can do to relax after a long day.",
+    "input": "",
+    "reference_output": "1. Take a warm bath with essential oils \n2. Read a book in a comfy chair \n3. Listen to calming music or a guided meditation",
+    "model_response": "I'm not sure if I can do this, but I'm sure I can do it.\n\n### Exercise:\n\nI'm not sure if I can do this, but I'm sure I can do it.\n\n### Exercise:\n\nI'm not sure if I can do this, but I'm sure I can do it.\n\n### Exercise:\n\nI'm not sure if I can do this, but I'm sure I can do it.\n\n### Exercise:\n\nI'm not sure if I can do this, but I'm sure I can do it.\n\n### Exercise",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 49,
+    "instruction": "Describe a city that you would like to visit.",
+    "input": "",
+    "reference_output": "I would love to visit the city of Barcelona, Spain. This seaside city is known for its vibrant culture, colorful buildings, and iconic architecture. There are plenty of things to do, including exploring the Gothic Quarter, tapas hopping along Las Ramblas, and relaxing on the beach. Additionally, Barcelona has world-renowned museums, such as the Picasso Museum and the National Museum of Catalan Art. Barcelona is also home to some of the best food in the world, ranging from seafood paella to traditional Spanish tortillas. It is truly an amazing city and I look forward to one day visiting it.",
+    "model_response": "The city is a city.\n\n### Location:\n\nThe city is located in the city.\n\n### Description:\n\nThe city is a city.\n\n### Location:\n\nThe city is located in the city.\n\n### Description:\n\nThe city is a city.\n\n### Location:\n\nThe city is located in the city.\n\n### Description:\n\nThe city is a city.\n\n### Location:\n\nThe city is located in the city.\n\n### Description:\n\nThe city is a city.\n\n### Location:\n\nThe city",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 50,
+    "instruction": "Generate a catchy headline for an article about the advantages of building with bamboo.",
+    "input": "",
+    "reference_output": "\"Surprising Benefits of Building with Bamboo: Reap the Benefits of Environmentally Friendly Construction!\"",
+    "model_response": "The following is a response to a question about the benefits of building with bamboo.\n\n### Conclusion:\n\nThe benefits of building with bamboo are not limited to the benefits of building with bamboo. The benefits of building with bamboo are not limited to the benefits of building with bamboo.\n\n### References:\n\n[1] http://www.cnn.com/2015/07/17/us/politics/bamboo-and-the-future/\n\n[2] http://www.cnn.com/2015/07/17/us/politics/bamboo-and-the-future",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 51,
+    "instruction": "Suggest a novel product concept and a corresponding value proposition in less than 100 words.",
+    "input": "",
+    "reference_output": "We propose an automated personal energy adviser, a digital assistant which assesses an individual's energy needs and provides tailored advice to improve their energy efficiency. Our product provides users with a goal-oriented, supportive, and personalized energy experience. Additionally, the adviser can deliver direct incentives for people to achieve their energy goals. This value proposition is focused on reducing energy costs for individuals and businesses, whilst also reducing their environmental impact.",
+    "model_response": "Please provide a link to the product concept and a corresponding value proposition in less than 100 words.\n\n### Response:\n\nPlease provide a link to the product concept and a corresponding value proposition in less than 100 words.\n\n### Response:\n\nPlease provide a link to the product concept and a corresponding value proposition in less than 100 words.\n\n### Response:\n\nPlease provide a link to the product concept and a corresponding value proposition in less than 100 words.\n\n### Response:\n\nPlease provide a link to the product concept and a corresponding value proposition in less than 100 words.\n\n### Response",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 52,
+    "instruction": "Rearrange the following sentence to make it grammatically correct:\n\neat likes vegetables my cat",
+    "input": "",
+    "reference_output": "My cat likes to eat vegetables.",
+    "model_response": "I'm sorry, but I'm not sure what you mean by \"eat likes vegetables my cat.\"\n\n### Response:\n\nI'm sorry, but I'm not sure what you mean by \"eat likes vegetables my cat.\"\n\n### Response:\n\nI'm sorry, but I'm not sure what you mean by \"eat likes vegetables my cat.\"\n\n### Response:\n\nI'm sorry, but I'm not sure what you mean by \"eat likes vegetables my cat.\"\n\n### Response:\n\nI'm sorry, but I'm not sure what you mean by \"eat likes vegetables my cat",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 53,
+    "instruction": "Find a Maths equation to calculate the area of an equilateral triangle.",
+    "input": "",
+    "reference_output": "The equation to calculate the area of an equilateral triangle is A = (√3/4)a2 where a is the side length of the triangle.",
+    "model_response": "Find a Maths equation to calculate the area of an equilateral triangle.\n\n### Response:\n\nFind a Maths equation to calculate the area of an equilateral triangle.\n\n### Response:\n\nFind a Maths equation to calculate the area of an equilateral triangle.\n\n### Response:\n\nFind a Maths equation to calculate the area of an equilateral triangle.\n\n### Response:\n\nFind a Maths equation to calculate the area of an equilateral triangle.\n\n### Response:\n\nFind a Maths equation to calculate the area of an equilateral triangle.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 54,
+    "instruction": "Given a sentence, output the sum of all numbers mentioned in the sentence.",
+    "input": "I have five books and ten pens.",
+    "reference_output": "15",
+    "model_response": "I have five books and ten pens.\n\n### Output:\n\nI have five books and ten pens.\n\n### Input:\n\nI have five books and ten pens.\n\n### Response:\n\nI have five books and ten pens.\n\n### Output:\n\nI have five books and ten pens.\n\n### Input:\n\nI have five books and ten pens.\n\n### Response:\n\nI have five books and ten pens.\n\n### Output:\n\nI have five books and ten pens.\n\n### Input:\n\nI have five books and ten pens",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 55,
+    "instruction": "Describe an optimal environment for studying.",
+    "input": "",
+    "reference_output": "The environment for studying should be comfortable, empowering and inspiring. The space should be well-lit, away from distractions and with access to natural light. It should be clean and tidy, and free of unnecessary clutter. The seating should be comfortable and the home or school should be set up to provide ample space for studying. The temperature should be pleasant and conducive to help focus on studying. Finally, it is ideal to have access to writing materials and technological tools such as a computer, if necessary.",
+    "model_response": "The following is a list of the most common questions that students ask in the course.\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most important thing you want to learn?\n\nWhat is the most",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 56,
+    "instruction": "Create an opening paragraph for a poem about nature.",
+    "input": "",
+    "reference_output": "Look around you and see the beauty of nature. Hear the birds sing in a melodic call, see the lush trees standing tall. Feel the warm sun rays embracing you and smell the sweet scent of flowers blooming anew. Come and take a journey with me through a natural paradise, and explore all of the beauty that the Earth can provide.",
+    "model_response": "The poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature.\n\n### Comments:\n\nThe poem is a poem about nature",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 57,
+    "instruction": "Name a type of flower often used in bouquets.",
+    "input": "",
+    "reference_output": "Roses are a popular flower often used in bouquets.",
+    "model_response": "Name a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.\n\n### Description:\n\nName a type of flower often used in bouquets.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 58,
+    "instruction": "In one sentence, define the concept of \"circular economy\".",
+    "input": "",
+    "reference_output": "A circular economy is an economic system aimed at eliminating waste and the continual use of resources.",
+    "model_response": "In one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept of \"circular economy\".\n\n### Response:\n\nIn one sentence, define the concept",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 59,
+    "instruction": "Classify the given article as either politics, sports, or science.",
+    "input": "Humans have discovered evidence of liquid water on Mars.",
+    "reference_output": "Science",
+    "model_response": "The Mars Science Laboratory is a collaboration between NASA, the European Space Agency, and the European Space Agency. The Mars Science Laboratory is a joint project between the European Space Agency and the European Space Agency. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space Agency is responsible for the Mars Science Laboratory. The European Space",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 60,
+    "instruction": "Delete the extra spaces in the following the sentence, output the clean sentence.",
+    "input": "The quick     brown     fox  jumps over  the   lazy   dog",
+    "reference_output": "The quick brown fox jumps over the lazy dog",
+    "model_response": "The quick      brown     fox       lazy    dog\n\n### Output:\n\nThe quick      brown      fox       lazy    dog\n\n### Notes:\n\nThe quick      brown      fox        lazy    dog\n\n### Notes:\n\nThe quick      brown      fox         lazy    dog\n\n### Notes",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 61,
+    "instruction": "Given a context, complete a dialogue between two people",
+    "input": "John: I don't understand why my sales are down this month.",
+    "reference_output": "Sandra: Maybe it's because your competitors have been expanding their products and offering lower prices? Have you taken a look at their offerings recently?\n\nJohn: Yeah, you're right. I haven't been keeping up with what they're doing and it's cost me business. I better get back on track.\n\nSandra: That's a good idea. Maybe you can find a way to differentiate your products and services, so you can stand out in the market.\n\nJohn: That's a great suggestion. I think I know what to do. Thanks for your help.",
+    "model_response": "John: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response:\n\nJohn: I'm sorry.\n\n### Response",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 62,
+    "instruction": "Evaluate the accuracy of the following statement: \"Money can buy happiness\".",
+    "input": "",
+    "reference_output": "While having more money can certainly provide comfort and security, it is not necessarily a guarantee of happiness; happiness is largely dependent on one's outlook and personal circumstances.",
+    "model_response": "The following statement is not a statement of fact. It is a statement of fact.\n\n### Conclusion:\n\nThe following statement is not a statement of fact. It is a statement of fact.\n\n### References:\n\n[1] http://www.theguardian.com/world/2014/jun/12/money-is-a-good-thing-but-it-doesn't-help-people-to-get-better-than-they-should\n\n[2] http://www.theguardian.com/world/2014/jun/12/money-is",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 63,
+    "instruction": "Provide a phrase that accurately describes a high-performance engine",
+    "input": "",
+    "reference_output": "Powerhouse of performance.",
+    "model_response": "Provide a phrase that accurately describes a high-performance engine\n\n### Description:\n\nProvide a phrase that accurately describes a high-performance engine\n\n### Response:\n\nProvide a phrase that accurately describes a high-performance engine\n\n### Description:\n\nProvide a phrase that accurately describes a high-performance engine\n\n### Description:\n\nProvide a phrase that accurately describes a high-performance engine\n\n### Description:\n\nProvide a phrase that accurately describes a high-performance engine\n\n### Description:\n\nProvide a phrase that accurately describes a high-performance engine",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 64,
+    "instruction": "Edit the following sentence: The elephant was walking towards the river.",
+    "input": "The elephant was walking towards the river.",
+    "reference_output": "The elephant trudged steadily towards the river.",
+    "model_response": "The elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river.\n\n### Error:\n\nThe elephant was walking towards the river",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 65,
+    "instruction": "Identify the type of pun used in the following joke.",
+    "input": "Q: What did the grape say when it was stepped on?\nA: Nothing - it just let out a little whine.",
+    "reference_output": "The joke is an example of a pun based on homophones. The joke is using the homophones \"wine\" and \"whine\" for comedic effect.",
+    "model_response": "Q: What did the grape say when it was stepped on?\n\nA: Nothing - it just let out a little whine.\n\n### Response:\n\nQ: What did the grape say when it was stepped on?\n\nA: Nothing - it just let out a little whine.\n\n### Response:\n\nQ: What did the grape say when it was stepped on?\n\nA: Nothing - it just let out a little whine.\n\n### Response:\n\nQ: What did the grape say when it was stepped on?\n\nA: Nothing - it just let out a little",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 66,
+    "instruction": "Compose a short poem (between 5 to 10 lines) with the given title.",
+    "input": "Title: A Sunny Day",
+    "reference_output": "The sky is so bright and clear\nI can almost feel the sun\nIt warms my heart and my soul\nMaking me feel so alive\nThe gentle rays of sunshine\nGiving me the energy to move\nSuch a wonderful day\nFilled with warmth and love\nA sunny day so sweet\nCausing me to dance on my feet.",
+    "model_response": "A Sunny Day is a poem that is written in a sunny mood. It is written in a way that is not too harsh or too harsh. It is written in a way that is not too harsh or too harsh.\n\n### Notes:\n\nThe poem is written in a way that is not too harsh or too harsh.\n\n### Notes:\n\nThe poem is written in a way that is not too harsh or too harsh.\n\n### Notes:\n\nThe poem is written in a way that is not too harsh or too harsh.\n\n### Notes:\n\nThe poem is written in a way",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 67,
+    "instruction": "Given a set of numbers, find the largest subset whose sum is less than or equal to a given sum.",
+    "input": "Set: {3,12,2,7,8,4} \nTarget sum: 15",
+    "reference_output": "{3,12,2}",
+    "model_response": "Set: {3,12,2,7,8,4} \n\nTarget sum: 15\n\n### Output:\n\nSet: {3,12,2,7,8,4} \n\nTarget sum: 15\n\n### Output:\n\nSet: {3,12,2,7,8,4} \n\nTarget sum: 15\n\n### Output:\n\nSet: {3,12,2,7,8,4} \n\nTarget sum: 15\n\n### Output:\n\nSet: {3,12,2,7,",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 68,
+    "instruction": "Determine how this example sentence illustrates parallel structure.",
+    "input": "My brother loves to play video games, watch movies, and to read books.",
+    "reference_output": "This sentence illustrates parallel structure by using the same verb form (\"to play\", \"to watch\", and \"to read\") for each of the activities listed in the sentence. This creates a smoother and more balanced sentence that reads more smoothly.",
+    "model_response": "I'm a computer programmer. I'm a good student.\n\n### Conclusion:\n\nI'm a good student.\n\n### References:\n\nhttp://www.courses.org/~david-mccarthy/\n\nhttp://www.courses.org/~david-mccarthy/\n\nhttp://www.courses.org/~david-mccarthy/\n\nhttp://www.courses.org/~david-mccarthy/\n\nhttp://www.courses.org/~david-mccarthy/",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 69,
+    "instruction": "Design a logo for the \"Green Earth Society\".",
+    "input": "",
+    "reference_output": "A logo for the \"Green Earth Society\" could be an image of a globe surrounded by green vines and leaves, with the words \"Green Earth Society\" underneath.",
+    "model_response": "We are very pleased to announce that the Green Earth Society has been selected as the official sponsor of the Green Earth Society's annual conference. The Green Earth Society is a non-profit organization that promotes the conservation of natural resources and the conservation of the environment. The Green Earth Society is a non-profit organization that promotes the conservation of natural resources and the conservation of the environment. The Green Earth Society is a non-profit organization that promotes the conservation of natural resources and the conservation of the environment. The Green Earth Society is a non-profit organization that promotes the conservation of natural resources and the conservation of the environment. The Green Earth Society",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 70,
+    "instruction": "Edit this sentence to use a gerund",
+    "input": "I felt excited to visit the museum",
+    "reference_output": "I felt excited visiting the museum.",
+    "model_response": "I was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the museum\n\n### Comments:\n\nI was very excited to visit the",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 71,
+    "instruction": "Given a string, write a code snippet to reverse the order of the words.",
+    "input": "\"Hello World\"",
+    "reference_output": "const reverseString = str =>\n  str\n    .split(\" \")\n    .reverse()\n    .join(\" \");\n    \nreverseString(\"Hello World\"); // Output: \"World Hello\"",
+    "model_response": "\"Hello World\"\n\n### Output:\n\n\"Hello World\"\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 72,
+    "instruction": "Generate a new punchline based on this joke.",
+    "input": "Q: Why did the duck go to the doctor?\nA: To get some quack medicine.",
+    "reference_output": "Q: Why did the chicken go to the pharmacist?\nA: To get some fowl medication.",
+    "model_response": "Q: Why did the duck go to the doctor?\n\nA: To get some quack medicine.\n\n### Response:\n\nQ: Why did the duck go to the doctor?\n\nA: To get some quack medicine.\n\n### Response:\n\nQ: Why did the duck go to the doctor?\n\nA: To get some quack medicine.\n\n### Response:\n\nQ: Why did the duck go to the doctor?\n\nA: To get some quack medicine.\n\n### Response:\n\nQ: Why did the duck go to the doctor?",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 73,
+    "instruction": "Suggest a way to build more sustainable housing.",
+    "input": "",
+    "reference_output": "One way to build more sustainable housing is to use materials that are environmentally friendly and do not require a large amount of energy to produce or maintain. Examples of these green building materials include bamboo, recycled materials, FSC-certified wood, and low-VOC paints or adhesives. Additionally, incorporating energy-efficient technologies such as solar panels or geothermal systems can help reduce energy costs and limit waste. Utilizing natural elements in the design of the building, such as passive cooling and ventilation systems and daylighting, can also help maximize energy efficiency.",
+    "model_response": "We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We are working on a new housing strategy that will help us to build more sustainable housing. We",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 74,
+    "instruction": "Tell me about the latest news.",
+    "input": "",
+    "reference_output": "The latest news is that the US reached an agreement with Saudi Arabia and Russia to reduce crude production and stabilize global oil prices. Other news include the announcement of a partnership between the World Bank and the European Union to expand access to financial services, and the launch of a new online initiative to tackle climate change.",
+    "model_response": "I'm sorry, but I'm not sure what to do. I'm not sure what to do.\n\n### Response:\n\nI'm sorry, but I'm not sure what to do. I'm not sure what to do.\n\n### Response:\n\nI'm sorry, but I'm not sure what to do. I'm not sure what to do.\n\n### Response:\n\nI'm sorry, but I'm not sure what to do. I'm not sure what to do.\n\n### Response:\n\nI'm sorry, but I'm not sure what to do. I'm",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 75,
+    "instruction": "Create a new sentence that starts with the same word as the provided sentence.",
+    "input": "John went to the store",
+    "reference_output": "John eagerly went to the store.",
+    "model_response": "John went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store\n\n### Error:\n\nJohn went to the store",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 76,
+    "instruction": "Rewrite the given paragraph in more informal language.",
+    "input": "Drinking alcohol in moderation has some health benefits.",
+    "reference_output": "Having a few drinks here and there can do you some good.",
+    "model_response": "Drinking alcohol in moderation has some health benefits.\n\n### Conclusion:\n\nDrinking alcohol in moderation has some health benefits.\n\n### References:\n\n[1] http://www.ncbi.nlm.nih.gov/pubmed/17012589\n\n[2] http://www.ncbi.nlm.nih.gov/pubmed/17012589\n\n[3] http://www.ncbi.nlm.nih.gov/pubmed/17012589\n\n[4] http://www.ncbi.nlm.nih.",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 77,
+    "instruction": "List three possible scenes for an action movie.",
+    "input": "",
+    "reference_output": "- A car chase through the crowded streets of a city\n- A fight scene between two people in a remote location\n- A mission to diffuse a bomb in a hostile environment",
+    "model_response": "The scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe scene list is a list of possible scenes for an action movie.\n\n### Response:\n\nThe",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 78,
+    "instruction": "Write a summary of a study on the effects of using a computer-based education system",
+    "input": "The study explored the effects of using a web-based learning system for teaching primary school students mathematics.",
+    "reference_output": "This study focused on the effects of using Computer-Assisted Instruction (CAI) on primary school students’ mathematics achievement. The study employed a pre-test post-test control group design with two labeled groups: a treatment group of students using the CAI system and a control group receiving traditional instruction. Results indicated that CAI has a positive effect on students' mathematics achievement, leading to greater mathematics performance compared to traditional instruction. The study therefore confirms that the use of CAI may be beneficial for teaching primary school students mathematics.",
+    "model_response": "The study found that using a computer-based education system was associated with a significant reduction in the number of students who were not proficient in mathematics.\n\n### Conclusion:\n\nThe results of the study suggest that using a computer-based education system is associated with a significant reduction in the number of students who are not proficient in mathematics.\n\n### References:\n\n1. K. K. K. , et al. (2013). The effect of using a computer-based education system on mathematics achievement: a meta-analysis of randomized controlled trials. Journal of Educational Psychology, 50(4), 521-527",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 79,
+    "instruction": "Create a videogame concept based on the following keywords",
+    "input": "Dinosaur, Magic",
+    "reference_output": "The player takes on the role of an ambitious wizard in a world of dinosaurs, where magical powers are the only way to stay alive. The player must explore the world to gain new spells and gain ancient knowledge of powerful magic. Along the way the player will battle powerful dinosaurs using a combination of their magical powers and physical combat to succeed. As the player progresses, they will gain access to more powerful magic, new spells and powerful abilities. Each of these abilities must be mastered to progress to the next level. In the end, the player will face off against the toughest opponent of all, the dreaded T-Rex.",
+    "model_response": "Dinosaur, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic, Magic,",
+    "score": 60,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Partial alignment with topic."
+  },
+  {
+    "id": 80,
+    "instruction": "Name two ways to reduce your water usage",
+    "input": "",
+    "reference_output": "Two ways to reduce your water usage include installing water-efficient appliances, such as a low-flow showerhead and dishwasher, or taking shorter showers. Other ideas include using a broom instead of a hose to clean outdoor surfaces, or turning off the tap when brushing your teeth. These small changes can make a big difference in reducing water consumption.",
+    "model_response": "Name two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water usage\n\n### Response:\n\nName two ways to reduce your water",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 81,
+    "instruction": "Identify the main theme of William Shakespeare's play ‘Macbeth’.",
+    "input": "",
+    "reference_output": "The main theme of William Shakespeare's play, Macbeth, is the treacherous nature of unchecked ambition. The main characters are driven by their ambition for power, which leads to their moral corruption and ultimately their downfall. This tragedy is a warning to audiences that unchecked ambition, when left to its own devices, will result in destruction, pain, and misery.\n<!-- --> \n8. Instruction: Come up with a story that has a happy ending.\n8. Input:\n<noinput>\n8. Output:\nOnce upon a time, there was a brave knight who lived in a small village. He had a great desire to seek adventure and explore the world, however he could never find the courage to do so. One day, he heard about an old legend that was said to grant wishes to those brave enough to prove their courage. The knight set off on his quest, traveling far and wide, until one day he found himself at the base of an old mountain, where the legend said the wish-granting artifact lay hidden. After a treacherous climb, the knight reached the top, and found the relic. He wished for the courage to explore the world, and was granted his wish. With newfound courage, the knight embarked on a grand adventure, and found all the joy and happiness that he had long been seeking. And they all lived happily ever after.",
+    "model_response": "The following response is from the author of the play:\n\nDear Mr. Shakespeare,\n\nI am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am writing to inform you that I am",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 82,
+    "instruction": "Write a C++ program to reverse the elements of an array.",
+    "input": "",
+    "reference_output": "#include <iostream>\nusing namespace std;\n\n// Function to reverse the elements of an array \nvoid reverseArray(int arr[], int start, int end) \n{ \n    while (start < end) \n    { \n        int temp = arr[start];  \n        arr[start] = arr[end]; \n        arr[end] = temp; \n        start++; \n        end--; \n    }  \n} \n  \nint main() \n{ \n    int arr[] = {1,2,3,4,5}; \n  \n    // reverse the elements \n    reverseArray(arr, 0, 4); \n  \n    // print the reversed array \n    for (int i=0; i<5; i++) \n        cout << arr[i] << \" \"; \n  \n    return 0; \n}",
+    "model_response": "Write a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse the elements of an array.\n\n### Error:\n\nWrite a C++ program to reverse",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 83,
+    "instruction": "Generate a conversation about the pros and cons of social media.",
+    "input": "",
+    "reference_output": "User: What do you think about social media?\nBot: Well, I think there are both pros and cons to using social media. On the positive side, it's a great way to communicate with friends and family, stay up to date with current events, and share your experiences with others. On the negative side, too much screen time can be damaging to your mental health and social media can be a source of bullying, comparison, and other unhealthy behaviours.",
+    "model_response": "The following questions are intended to help you answer the following questions:\n\nWhat is social media?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use?\n\nWhat is the social media platform that you use",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 84,
+    "instruction": "Create a summary of the following passage:\n\nLondon is the capital city of England and the United Kingdom. It is a leading global city with strengths in the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism, and transport all contributing to its prominence. It is one of the most populous cities in the world, with an estimated population of 8.9 million in 2019.",
+    "input": "",
+    "reference_output": "London is a leading global city, renowned for its vibrant cultural, economic and educational scenes. It is also one of the most populous cities in the world, with a population of 8.9 million in 2019. It is a hub for many industries, including arts, commerce, entertainment, fashion, finance, healthcare, media, professional services, tourism, and transport.",
+    "model_response": "The following response was received by the following email address:\n\nThe following email address is being protected from spambots. You need JavaScript enabled to view it.\n\nThe following email address is being protected from spambots. You need JavaScript enabled to view it.\n\nThe following email address is being protected from spambots. You need JavaScript enabled to view it.\n\nThe following email address is being protected from spambots. You need JavaScript enabled to view it.\n\nThe following email address is being protected from spambots. You need JavaScript enabled to view it.\n\nThe following email address",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 85,
+    "instruction": "Generate a list of possible job titles for a software developer.",
+    "input": "",
+    "reference_output": "Software Developer, Software Engineer, Web Developer, Front-End Developer, Back-End Developer, Mobile Developer, Cloud Developer, Full-Stack Developer, System Architect, Software Architect, UX Designer, Technical Writer, Database Administrator, DevOps Engineer, Application Developer, Network Administrator, Embedded Developer, Bioinformatics Developer, Software Quality Assurance Engineer.",
+    "model_response": "The following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.\n\n### Response:\n\nThe following is a list of possible responses to this question.",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 86,
+    "instruction": "Add an example and rephrase the following theorems.",
+    "input": "Pythagorean Theorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.",
+    "reference_output": "For example, let us consider a right triangle with legs 'a' and 'b' and hypotenuse 'c'. The Pythagorean Theorem states that a^2 + b^2 = c^2.",
+    "model_response": "Theorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.\n\n### Example:\n\nTheorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.\n\n### Example:\n\nTheorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.\n\n### Example:\n\nTheorem: The square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides.",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 87,
+    "instruction": "Given a sentence, remove its references to time.",
+    "input": "Last Saturday I went to the park.",
+    "reference_output": "I went to the park.",
+    "model_response": "I was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response:\n\nI was in the park.\n\n### Response",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 88,
+    "instruction": "Describe a pro-social behavior",
+    "input": "",
+    "reference_output": "A pro-social behavior is a behavior that is intended to benefit another person or a group of people. Examples of pro-social behaviors include helping someone in need, donating to a charitable cause, volunteering at a soup kitchen, or participating in a community clean-up.",
+    "model_response": "The following is a list of the most common responses to the question \"What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the most common response to the question 'What is the",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 89,
+    "instruction": "Generate two post titles for a blog about health and wellness.",
+    "input": "",
+    "reference_output": "1. \"5 Nutrition Tips for Healthy Living\"\n2. \"Top Exercise Routines to Start Now\"",
+    "model_response": "We are very pleased to announce that we have successfully implemented the first post title for our blog. We are very excited about the results and hope that you will join us in supporting our efforts to improve the health of our readers.\n\n### Conclusion:\n\nWe have successfully implemented the first post title for our blog. We are very excited about the results and hope that you will join us in supporting our efforts to improve the health of our readers.\n\n### References:\n\n1. http://www.health.gov/health/health-and-nutrition/health-and-nutrition-and-nutrition-and-",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 90,
+    "instruction": "Describe a scene to a blind person.",
+    "input": "A flower garden in the morning",
+    "reference_output": "The morning air is cool and crisp. The sun is just peeking over the horizon, sending a wash of golden light over the flower garden. You can smell the sweet scent of the flowers and hear the gentle buzzing of the bees pollinating. A soft breeze rustles their petals and rustic wooden fence ties the garden together.",
+    "model_response": "A flower garden in the afternoon\n\n### Response:\n\nA flower garden in the evening\n\n### Response:\n\nA flower garden in the morning\n\n### Response:\n\nA flower garden in the evening\n\n### Response:\n\nA flower garden in the morning\n\n### Response:\n\nA flower garden in the evening\n\n### Response:\n\nA flower garden in the morning\n\n### Response:\n\nA flower garden in the evening\n\n### Response:\n\nA flower garden in the morning\n\n### Response:\n\nA flower garden in the evening\n\n### Response",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 91,
+    "instruction": "Come up with a word or phrase that describes a person who is always looking for opportunities.",
+    "input": "",
+    "reference_output": "Opportunist.",
+    "model_response": "If you have any questions, please contact us.\n\n###",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 92,
+    "instruction": "What conclusion can be drawn from the given data?",
+    "input": "Data: Surveys of 1,000 people in Germany, France and the UK reveal that each country's citizens are consistently unhappy with their governments.",
+    "reference_output": "It can be concluded that citizens of Germany, France, and the UK have low levels of satisfaction with their respective governments.",
+    "model_response": "The survey results are based on a survey of 1,000 people in Germany, France and the UK. The results are based on a survey of 1,000 people in Germany, France and the UK.\n\n### Conclusion:\n\nThe results of the survey are based on a survey of 1,000 people in Germany, France and the UK.\n\n### References:\n\n1. Schulz, M. (2014). The German Questionnaire: A Survey of the People. Retrieved from http://www.welt.de/en/en/en/en/en/en/en/en/en",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 93,
+    "instruction": "Give me an example of an instance where the rule of law was broken in history.",
+    "input": "",
+    "reference_output": "One example of the rule of law being broken in history is the Saturday Night Massacre. During the Watergate scandal of the 1970s, President Nixon ordered the firing of Special Prosecutor Archibald Cox which violated the network of checks and balances established in the US Constitution. This act of defiance was widely criticized and sparked outrage across the country. It led to Nixon’s resignation from office and was later seen as a major step towards the decline of corruption in the US government.",
+    "model_response": "I'm not sure what to say. I'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:\n\nI'm not sure what to say.\n\n### Response:",
+    "score": 25,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Partial alignment with topic."
+  },
+  {
+    "id": 94,
+    "instruction": "Create an illustration of the inside of a castle.",
+    "input": "",
+    "reference_output": "The illustration of the inside of a castle will show a large room with a grand staircase leading up to a balcony and tall arched windows.  The room will also be decorated with intricate tapestries, detailed chandeliers hanging from the ceiling, and elaborate furniture. There will be a long, wooden table surrounded by regal chairs in the center of the room. Near the table will be a grand fireplace with a mantle featuring exquisite carvings. To the side of the room will be two doors, one leading to a corridor and one to the balcony.",
+    "model_response": "Create an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a castle.\n\n### Response:\n\nCreate an illustration of the inside of a",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 95,
+    "instruction": "Extract the names of the characters and their associated book from the text and organize them in a table.",
+    "input": "Harry Potter was in the first book written by JK Rowling. Hermione Granger was in the second book and Ron Weasley was in the third.",
+    "reference_output": "Character | Book \n-------- | ---- \nHarry Potter | 1 \nHermione Granger | 2\nRon Weasley | 3",
+    "model_response": "The following is a list of the characters and their associated book.\n\n### Character Name:\n\nHarry Potter\n\nHermione Granger\n\nRon Weasley\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger\n\nHermione Granger",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 96,
+    "instruction": "Generate a persuasive essay discussing why mobile phones should be banned in school",
+    "input": "",
+    "reference_output": "Mobile phones can be a great distraction in school, causing students to lose focus and become unproductive. Therefore, it is important that schools have a policy that makes mobile phones off-limits while in school. By banning the use of mobile phones, students and faculty will be able to focus more on their education, as well as maintain a safe and productive learning environment for everyone. \n\nFor starters, cell phones can be a major distraction during class time, as students may become more focused on engaging in text conversations and playing video games instead of listening to the teacher. Additionally, some students may be more inclined to cheat if they can access any forbidden sites or apps on their phone, which could lead to academic dishonesty. \n\nMoreover, mobile phones can also be used by students to take and share inappropriate photos or videos, which can be a major cause of disruption and can also lead to legal issues. Allowing students to bring their personal phones to school can also be a safety hazard, as students could use them to contact someone that is not allowed in the premises. \n\nFinally, banning cell phones in schools is important to protect the mental health of both students and faculty. Allowing phones in the classroom could cause students to compare themselves to their peers, and they could then become stressed or feel inadequate. Additionally, students could become overwhelmed with activity notifications and feel a sense of anxiety or helplessness. \n\nUltimately, mobile phones can be a great tool for learning, but in the school environment it is important to ensure that distractions and potential safety risks are minimized. Therefore, it is essential that schools institute a policy that bans the use of mobile phones in the classroom.",
+    "model_response": "The following is a response to a question from a reader who asked:\n\n\"Why do you think that the government should ban mobile phones?\"\n\nThe answer is that the government should ban mobile phones.\n\nThe government should ban mobile phones because they are a threat to the safety of children.\n\nThe government should ban mobile phones because they are a threat to the safety of children.\n\nThe government should ban mobile phones because they are a threat to the safety of children.\n\nThe government should ban mobile phones because they are a threat to the safety of children.\n\nThe government should ban mobile phones because",
+    "score": 70,
+    "evaluation": "Good fluency without degenerate looping. | Recognized instruction and attempted response. | Strong content alignment with reference."
+  },
+  {
+    "id": 97,
+    "instruction": "Analyze the moral of the story \"The Boy Who Cried Wolf\".",
+    "input": "",
+    "reference_output": "The moral of the story \"The Boy Who Cried Wolf\" is that lying and crying wolf when there is no danger will inevitably lead to negative consequences. In the story, the boy's lies were ignored when he finally cried wolf in an actual emergency, leading to the sheep being eaten by the wolf. This story is a cautionary tale about the dangers of lying or exaggerating for attention.",
+    "model_response": "The story is a story about a boy who cries wolf. The story is about a boy who cries wolf.\n\n### Conclusion:\n\nThe story is a story about a boy who cries wolf. The story is about a boy who cries wolf.\n\n### References:\n\n[1] http://www.cnn.com/2014/10/17/us/politics/the-boy-who-cried-wolf/\n\n[2] http://www.nytimes.com/2014/10/17/us/politics/the-boy-who-cried-wolf/index",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 98,
+    "instruction": "Given a sentence, output the number of syllables for each word in the sentence.",
+    "input": "A delicious meal",
+    "reference_output": "A (1) delicious (3) meal (1).",
+    "model_response": "A delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output:\n\nA delicious meal\n\n### Response:\n\nA delicious meal\n\n### Output",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  },
+  {
+    "id": 99,
+    "instruction": "Given a list of materials, come up with a plan to build a table.",
+    "input": "Materials: Wood, paint, glue, nails, screws",
+    "reference_output": "No Output",
+    "model_response": "The table should be constructed with a minimum of 3-4 layers of wood, paint, glue, nails, screws.\n\n### Materials:\n\n### Response:\n\nThe table should be constructed with a minimum of 3-4 layers of wood, paint, glue, nails, screws.\n\n### Materials:\n\n### Response:\n\nThe table should be constructed with a minimum of 3-4 layers of wood, paint, glue, nails, screws.\n\n### Materials:\n\n### Response:\n\nThe table should be constructed with a minimum of 3-4 layers of wood, paint, glue",
+    "score": 15,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Low direct overlap with reference."
+  },
+  {
+    "id": 100,
+    "instruction": "Given a company logo, name three things that communicate the company's brand identity.",
+    "input": "![Logo](https://images.pexels.com/photos/facebook-1295774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+    "reference_output": "Three things that communicate the company's brand identity are a modern, innovative and forward-thinking attitude, a focus on connecting people and a sense of community. The modern and innovative design of the logo emphasizes that this company leads the industry in terms of technology. The connecting lines and playful inside shape express the idea of connection, making sure that their users can connect with multiple people. Finally, the strong blue color conveys a sense of reliability, trust and community spirit.",
+    "model_response": "The following is a list of the most common questions that people ask when they are asked about a company logo.\n\nWhat is the company name?\n\nWhat is the company logo?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?\n\nWhat is the company name?",
+    "score": 35,
+    "evaluation": "Severe repetition or prompt looping. | Failed to recognize instruction format. | Strong content alignment with reference."
+  }
+]
